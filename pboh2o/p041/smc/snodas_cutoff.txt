@@ -1,5 +1,0 @@
-% updated on 30-Oct-2017 
-% We found a snodas snow-depth file for p041 
-% smc not computed for days when SNODAS snow depth >  cutoff  
-% SNODAS snow-depth cutoff value in meters:
-0.010   
