@@ -1,0 +1,121 @@
+Code ran on 12-Nov-2015 by roeslerc 
+Eval sat  1 quad  1 ratio 4.0 Emin  5 Emax 30 
+ 254 LSP retrievals within initial bounds 
+final values in bounds  252 
+Eval sat  1 quad  3 ratio 4.0 Emin  5 Emax 30 
+ 250 LSP retrievals within initial bounds 
+final values in bounds  249 
+Eval sat  1 quad  4 ratio 4.0 Emin  5 Emax 30 
+ 245 LSP retrievals within initial bounds 
+final values in bounds  244 
+Eval sat  7 quad  3 ratio 4.0 Emin  5 Emax 30 
+ 290 LSP retrievals within initial bounds 
+final values in bounds  290 
+Eval sat  7 quad  4 ratio 4.0 Emin  5 Emax 30 
+ 298 LSP retrievals within initial bounds 
+final values in bounds  298 
+Eval sat 12 quad  2 ratio 4.0 Emin  5 Emax 30 
+ 295 LSP retrievals within initial bounds 
+final values in bounds  295 
+Eval sat 12 quad  3 ratio 4.0 Emin  5 Emax 30 
+ 295 LSP retrievals within initial bounds 
+final values in bounds  295 
+Eval sat 15 quad  1 ratio 4.0 Emin  5 Emax 30 
+ 290 LSP retrievals within initial bounds 
+final values in bounds  288 
+Eval sat 15 quad  4 ratio 4.0 Emin  5 Emax 30 
+ 301 LSP retrievals within initial bounds 
+final values in bounds  295 
+Eval sat 17 quad  3 ratio 4.0 Emin  5 Emax 30 
+ 298 LSP retrievals within initial bounds 
+final values in bounds  297 
+Eval sat 25 quad  3 ratio 4.0 Emin  5 Emax 30 
+ 295 LSP retrievals within initial bounds 
+final values in bounds  295 
+Eval sat 29 quad  2 ratio 4.0 Emin  5 Emax 30 
+ 286 LSP retrievals within initial bounds 
+final values in bounds  284 
+Eval sat 29 quad  4 ratio 4.0 Emin  5 Emax 30 
+ 297 LSP retrievals within initial bounds 
+final values in bounds  297 
+Eval sat 31 quad  1 ratio 4.0 Emin  5 Emax 30 
+ 292 LSP retrievals within initial bounds 
+final values in bounds  292 
+Eval sat 31 quad  3 ratio 4.0 Emin  5 Emax 30 
+ 292 LSP retrievals within initial bounds 
+final values in bounds  292 
+Eval sat 27 quad  3 ratio 4.0 Emin  5 Emax 30 
+found no data for 27  3 
+Eval sat 27 quad  4 ratio 4.0 Emin  5 Emax 30 
+found no data for 27  4 
+Eval sat 30 quad  4 ratio 4.0 Emin  5 Emax 30 
+found no data for 30  4 
+Eval sat  6 quad  1 ratio 4.0 Emin  5 Emax 30 
+found no data for  6  1 
+Eval sat  6 quad  3 ratio 4.0 Emin  5 Emax 30 
+found no data for  6  3 
+Eval sat  9 quad  4 ratio 4.0 Emin  5 Emax 30 
+found no data for  9  4 
+Eval sat 27 quad  1 ratio 4.0 Emin  5 Emax 30 
+found no data for 27  1 
+Eval sat 27 quad  2 ratio 4.0 Emin  5 Emax 30 
+found no data for 27  2 
+Eval sat  1 quad  2 ratio 4.0 Emin  5 Emax 30 
+ 241 LSP retrievals within initial bounds 
+final values in bounds  241 
+Eval sat  3 quad  2 ratio 4.0 Emin  5 Emax 30 
+found no data for  3  2 
+Eval sat  3 quad  3 ratio 4.0 Emin  5 Emax 30 
+found no data for  3  3 
+Eval sat  5 quad  1 ratio 4.0 Emin  5 Emax 30 
+ 297 LSP retrievals within initial bounds 
+final values in bounds  297 
+Eval sat  5 quad  4 ratio 4.0 Emin  5 Emax 30 
+ 295 LSP retrievals within initial bounds 
+final values in bounds  295 
+Eval sat  6 quad  4 ratio 4.0 Emin  5 Emax 30 
+found no data for  6  4 
+Eval sat  8 quad  2 ratio 4.0 Emin  5 Emax 30 
+found no data for  8  2 
+Eval sat  8 quad  4 ratio 4.0 Emin  5 Emax 30 
+found no data for  8  4 
+Eval sat  9 quad  2 ratio 4.0 Emin  5 Emax 30 
+found no data for  9  2 
+Eval sat 15 quad  2 ratio 4.0 Emin  5 Emax 30 
+ 273 LSP retrievals within initial bounds 
+final values in bounds  273 
+Eval sat 24 quad  1 ratio 4.0 Emin  5 Emax 30 
+found no data for 24  1 
+Eval sat 24 quad  2 ratio 4.0 Emin  5 Emax 30 
+found no data for 24  2 
+Eval sat 24 quad  3 ratio 4.0 Emin  5 Emax 30 
+found no data for 24  3 
+Eval sat 24 quad  4 ratio 4.0 Emin  5 Emax 30 
+found no data for 24  4 
+Eval sat 26 quad  1 ratio 4.0 Emin  5 Emax 30 
+found no data for 26  1 
+Eval sat 26 quad  2 ratio 4.0 Emin  5 Emax 30 
+found no data for 26  2 
+Eval sat 26 quad  4 ratio 4.0 Emin  5 Emax 30 
+found no data for 26  4 
+Minsigma   0.100 Req tracks   4 
+Throw out 2012 doy  34 sat  1 quad  2 
+Throw out 2012 doy  34 sat  1 quad  3 
+Throw out 2012 doy  34 sat 31 quad  1 
+Throw out 2012 doy  34 sat  7 quad  3 
+Throw out 2012 doy  34 sat  5 quad  1 
+Throw out 2012 doy  34 sat 15 quad  1 
+Throw out 2012 doy  35 sat 15 quad  4 
+Throw out 2012 doy  35 sat 15 quad  1 
+Throw out 2011 doy 356 sat 31 quad  3 
+Throw out 2011 doy 356 sat  1 quad  2 
+Throw out 2011 doy 356 sat  1 quad  3 
+Throw out 2011 doy 356 sat  5 quad  1 
+Throw out 2011 doy 356 sat 15 quad  1 
+Throw out 2011 doy 362 sat  1 quad  4 
+Throw out 2011 doy 362 sat 15 quad  2 
+Throw out 2011 doy 362 sat  7 quad  4 
+Throw out 2011 doy 362 sat  1 quad  1 
+Throw out 2011 doy 362 sat 29 quad  2 
+Throw out 2011 doy 362 sat 29 quad  4 
+Throw out 2011 doy 362 sat 15 quad  1 

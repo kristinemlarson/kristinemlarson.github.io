@@ -1,0 +1,31 @@
+Code ran on 13-Aug-2015 by sandrac 
+Eval sat  1 quad  1 ratio 4.0 Emin  5 Emax 30 1356 LSP retrievals 
+   found ground  30  2.00 offset  0.00 and values in bounds  262 
+Eval sat  1 quad  3 ratio 4.0 Emin  5 Emax 30 1345 LSP retrievals 
+   found ground  30  1.96 offset  0.00 and values in bounds  237 
+Eval sat  1 quad  4 ratio 4.0 Emin  5 Emax 30 1341 LSP retrievals 
+   found ground  30  1.95 offset  0.00 and values in bounds  261 
+Eval sat  7 quad  3 ratio 4.0 Emin  5 Emax 30 2001 LSP retrievals 
+   found ground  30  1.99 offset  0.00 and values in bounds  251 
+Eval sat  7 quad  4 ratio 4.0 Emin  5 Emax 30 2078 LSP retrievals 
+   found ground  30  1.97 offset  0.00 and values in bounds  268 
+Eval sat 12 quad  2 ratio 4.0 Emin  5 Emax 30 2017 LSP retrievals 
+   found ground  29  1.96 offset  0.00 and values in bounds  255 
+Eval sat 12 quad  3 ratio 4.0 Emin  5 Emax 30 2056 LSP retrievals 
+   found ground  29  1.94 offset  0.00 and values in bounds  259 
+Eval sat 15 quad  1 ratio 4.0 Emin  5 Emax 30 2089 LSP retrievals 
+   found ground  30  1.99 offset  0.00 and values in bounds  265 
+Eval sat 15 quad  4 ratio 4.0 Emin  5 Emax 30 2045 LSP retrievals 
+   found ground  30  1.97 offset  0.00 and values in bounds  262 
+Eval sat 17 quad  3 ratio 4.0 Emin  5 Emax 30 1873 LSP retrievals 
+   found ground  30  1.93 offset  0.00 and values in bounds  255 
+Eval sat 25 quad  3 ratio 4.0 Emin  5 Emax 30 1668 LSP retrievals 
+   found ground  30  1.93 offset  0.00 and values in bounds  247 
+Eval sat 29 quad  2 ratio 4.0 Emin  5 Emax 30 2017 LSP retrievals 
+   found ground  30  1.96 offset  0.00 and values in bounds  259 
+Eval sat 29 quad  4 ratio 4.0 Emin  5 Emax 30 2035 LSP retrievals 
+   found ground  30  1.95 offset  0.00 and values in bounds  258 
+Eval sat 31 quad  1 ratio 4.0 Emin  5 Emax 30 2066 LSP retrievals 
+   found ground  30  1.99 offset  0.00 and values in bounds  265 
+Eval sat 31 quad  3 ratio 4.0 Emin  5 Emax 30 2027 LSP retrievals 
+   found ground  30  1.94 offset  0.00 and values in bounds  261 

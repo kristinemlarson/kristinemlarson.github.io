@@ -1,0 +1,41 @@
+%  station p041 : Results for daily SMC drydown events  
+%  file created on 23-Mar-2017 using drydown_gps_smap.m 
+%  Results for the exponential model fit to the SMC drydown events  
+%  this is for the GPS daily SMC  
+%  for years >= 2015 the SMAP results are also given
+%      when a GPS SMC drydown exits
+%  Info about the Drydown event:  
+%      when it starts ( year , day-of-year)
+%      how long it lasts (Dry #days)
+%      the cumulative precipitation 1 day prior to the Drydown in (mm)
+%      the cumulative precipitation 4 days prior to the Drydown in (mm)
+%  
+%  Info about the exponential model fit:
+%         the exponential time constant: Tau (in days) :
+%         coefficient of determination (R-square) value:  R2 
+%         (from actual data and model data) 
+%         
+%  The number of daily SMC observations used in the fit 
+%     as well as  the first & last observation times are given 
+%   
+%  NB: no editing of the dryDowns: the "good and bad"  fits are kept 
+%         
+%---------------------------------------------------------------------------------- 
+%  1  |  2  |   3  |    4    |   5      |    6       7       8       9      10     | 
+%---------------------------------------------------------------------------------- 
+%  DryDown     Dry    Precip    Precip       gps     gps     gps     gps     gps    
+%Year   doy   #days   24 hr   cum 4 days     Tau      R2    #obs    Obs1   lastObs 
+%  (start)            (mm)      (mm)        (day)                   (doy)   (doy)   
+%----------------------------------------------------------------------------------
+ 2011    57    14     1.10      2.00        15.91    0.84     10      58      67 
+ 2011    88     4     2.70      3.40         8.08    0.95      4      88      91 
+ 2011    95     8     1.50      4.80         6.61    0.92      8      95     102 
+ 2011   116    14     4.60      7.50         8.20    0.99     11     116     126 
+ 2011   161     8     2.80      2.80         3.23    0.98      8     161     168 
+ 2011   172     8    25.80     27.90         3.70    0.99      8     172     179 
+ 2011   202     4     2.70      7.30         2.64    0.99      4     202     205 
+ 2011   233    15     3.40      3.70         0.72    0.94      7     233     240 
+ 2011   251     6     8.10     11.00         3.16    0.98      6     251     256 
+ 2011   259    21    21.70     22.50         5.44    0.97     15     260     275 
+ 2011   282     7     8.90      9.10         4.83    0.97      7     282     288 
+ 2011   307    27    11.00     15.10        14.76    0.98     21     313     333 

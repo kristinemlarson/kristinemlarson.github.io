@@ -1,0 +1,18 @@
+% User kristine made this file on 11-Oct-2017 using snowdepth.m 
+% Results may only be used with explicit permission of GNSSH2O 
+% These results are for an OFFICIAL station. 
+% MaxSnowVal(m)   1.60   0.04 
+% Magic Values: -201 no solution, -301 no data, -99 no value 
+% Min_tracks 4 ; min_sigma 10 cm 
+% year   doy   snowD(m)     Std(m)  Month Day #tracks FileSize  snotelD(m)  
+% (1)    (2)     (3)         (4)     (5)  (6)  (7)     (8)         (9)      
+  2017   274      0.004      0.028    10    1    39     2156   -99.0000 
+  2017   275      0.015      0.029    10    2    40     2160   -99.0000 
+  2017   276      0.017      0.027    10    3    40     2160   -99.0000 
+  2017   277      0.013      0.027    10    4    39     2112   -99.0000 
+  2017   278      0.011      0.027    10    5    40     2160   -99.0000 
+  2017   279      0.009      0.027    10    6    40     2160   -99.0000 
+  2017   280      0.008      0.027    10    7    40     2160   -99.0000 
+  2017   281      0.004      0.027    10    8    40     2164   -99.0000 
+  2017   282      0.069      0.095    10    9    38     2164   -99.0000 
+  2017   283      0.050      0.050    10   10    27     2164   -99.0000 

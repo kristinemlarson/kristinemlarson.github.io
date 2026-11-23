@@ -1,0 +1,139 @@
+Code ran on 15-Nov-2015 by kristine 
+Eval sat  1 quad  1 ratio 4.0 Emin  5 Emax 30 
+ 267 LSP retrievals within initial bounds 
+final values in bounds  266 
+Eval sat  1 quad  3 ratio 4.0 Emin  5 Emax 30 
+ 268 LSP retrievals within initial bounds 
+final values in bounds  266 
+Eval sat  1 quad  4 ratio 4.0 Emin  5 Emax 30 
+ 265 LSP retrievals within initial bounds 
+final values in bounds  258 
+Eval sat  7 quad  3 ratio 4.0 Emin  5 Emax 30 
+ 246 LSP retrievals within initial bounds 
+final values in bounds  245 
+Eval sat  7 quad  4 ratio 4.0 Emin  5 Emax 30 
+ 269 LSP retrievals within initial bounds 
+final values in bounds  265 
+Eval sat 12 quad  2 ratio 4.0 Emin  5 Emax 30 
+ 252 LSP retrievals within initial bounds 
+final values in bounds  250 
+Eval sat 12 quad  3 ratio 4.0 Emin  5 Emax 30 
+ 263 LSP retrievals within initial bounds 
+final values in bounds  263 
+Eval sat 15 quad  1 ratio 4.0 Emin  5 Emax 30 
+ 265 LSP retrievals within initial bounds 
+final values in bounds  264 
+Eval sat 15 quad  4 ratio 4.0 Emin  5 Emax 30 
+ 261 LSP retrievals within initial bounds 
+final values in bounds  261 
+Eval sat 17 quad  3 ratio 4.0 Emin  5 Emax 30 
+ 260 LSP retrievals within initial bounds 
+final values in bounds  260 
+Eval sat 25 quad  3 ratio 4.0 Emin  5 Emax 30 
+ 260 LSP retrievals within initial bounds 
+final values in bounds  260 
+Eval sat 29 quad  2 ratio 4.0 Emin  5 Emax 30 
+ 259 LSP retrievals within initial bounds 
+final values in bounds  256 
+Eval sat 29 quad  4 ratio 4.0 Emin  5 Emax 30 
+ 267 LSP retrievals within initial bounds 
+final values in bounds  266 
+Eval sat 31 quad  1 ratio 4.0 Emin  5 Emax 30 
+ 267 LSP retrievals within initial bounds 
+final values in bounds  266 
+Eval sat 31 quad  3 ratio 4.0 Emin  5 Emax 30 
+ 266 LSP retrievals within initial bounds 
+final values in bounds  265 
+Eval sat 27 quad  3 ratio 4.0 Emin  5 Emax 30 
+ 269 LSP retrievals within initial bounds 
+final values in bounds  268 
+Eval sat 27 quad  4 ratio 4.0 Emin  5 Emax 30 
+ 267 LSP retrievals within initial bounds 
+final values in bounds  262 
+Eval sat 30 quad  4 ratio 4.0 Emin  5 Emax 30 
+ 266 LSP retrievals within initial bounds 
+final values in bounds  264 
+Eval sat  6 quad  1 ratio 4.0 Emin  5 Emax 30 
+ 266 LSP retrievals within initial bounds 
+final values in bounds  262 
+Eval sat  6 quad  3 ratio 4.0 Emin  5 Emax 30 
+ 264 LSP retrievals within initial bounds 
+final values in bounds  264 
+Eval sat  9 quad  4 ratio 4.0 Emin  5 Emax 30 
+ 243 LSP retrievals within initial bounds 
+final values in bounds  243 
+Eval sat 27 quad  1 ratio 4.0 Emin  5 Emax 30 
+ 267 LSP retrievals within initial bounds 
+final values in bounds  262 
+Eval sat 27 quad  2 ratio 4.0 Emin  5 Emax 30 
+ 248 LSP retrievals within initial bounds 
+final values in bounds  248 
+Eval sat  1 quad  2 ratio 4.0 Emin  5 Emax 30 
+ 263 LSP retrievals within initial bounds 
+final values in bounds  263 
+Eval sat  3 quad  2 ratio 4.0 Emin  5 Emax 30 
+ 152 LSP retrievals within initial bounds 
+final values in bounds  152 
+Eval sat  3 quad  3 ratio 4.0 Emin  5 Emax 30 
+ 163 LSP retrievals within initial bounds 
+final values in bounds  163 
+Eval sat  5 quad  1 ratio 4.0 Emin  5 Emax 30 
+ 269 LSP retrievals within initial bounds 
+final values in bounds  268 
+Eval sat  5 quad  4 ratio 4.0 Emin  5 Emax 30 
+ 267 LSP retrievals within initial bounds 
+final values in bounds  265 
+Eval sat  6 quad  4 ratio 4.0 Emin  5 Emax 30 
+ 256 LSP retrievals within initial bounds 
+final values in bounds  256 
+Eval sat  8 quad  2 ratio 4.0 Emin  5 Emax 30 
+found no data for  8  2 
+Eval sat  8 quad  4 ratio 4.0 Emin  5 Emax 30 
+found no data for  8  4 
+Eval sat  9 quad  2 ratio 4.0 Emin  5 Emax 30 
+ 204 LSP retrievals within initial bounds 
+final values in bounds  197 
+Eval sat 15 quad  2 ratio 4.0 Emin  5 Emax 30 
+found no data for 15  2 
+Eval sat 24 quad  1 ratio 4.0 Emin  5 Emax 30 
+ 270 LSP retrievals within initial bounds 
+final values in bounds  270 
+Eval sat 24 quad  2 ratio 4.0 Emin  5 Emax 30 
+ 197 LSP retrievals within initial bounds 
+final values in bounds  195 
+Eval sat 24 quad  3 ratio 4.0 Emin  5 Emax 30 
+ 266 LSP retrievals within initial bounds 
+final values in bounds  264 
+Eval sat 24 quad  4 ratio 4.0 Emin  5 Emax 30 
+ 260 LSP retrievals within initial bounds 
+final values in bounds  257 
+Eval sat 26 quad  1 ratio 4.0 Emin  5 Emax 30 
+  29 LSP retrievals within initial bounds 
+final values in bounds   29 
+Eval sat 26 quad  2 ratio 4.0 Emin  5 Emax 30 
+  28 LSP retrievals within initial bounds 
+final values in bounds   28 
+Eval sat 26 quad  4 ratio 4.0 Emin  5 Emax 30 
+  28 LSP retrievals within initial bounds 
+final values in bounds   28 
+Minsigma   0.100 Req tracks   4 
+Throw out 2015 doy  47 sat 27 quad  4 
+Throw out 2015 doy  47 sat  3 quad  3 
+Throw out 2015 doy  47 sat 27 quad  1 
+Throw out 2015 doy  47 sat 17 quad  3 
+Throw out 2015 doy  47 sat  9 quad  4 
+Throw out 2015 doy  47 sat  1 quad  4 
+Throw out 2015 doy  47 sat  7 quad  4 
+Throw out 2015 doy  47 sat  6 quad  3 
+Throw out 2015 doy  47 sat  6 quad  4 
+Throw out 2015 doy  47 sat 24 quad  2 
+Throw out 2015 doy  47 sat 30 quad  4 
+Throw out 2015 doy  47 sat  1 quad  1 
+Throw out 2015 doy  57 sat 27 quad  1 
+Throw out 2015 doy  57 sat 17 quad  3 
+Throw out 2015 doy  57 sat  9 quad  4 
+Throw out 2015 doy  57 sat  1 quad  4 
+Throw out 2015 doy  57 sat  7 quad  4 
+Throw out 2015 doy  58 sat  1 quad  4 
+Throw out 2015 doy  58 sat 29 quad  4 
+Throw out 2015 doy  58 sat  1 quad  2 

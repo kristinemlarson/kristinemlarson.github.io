@@ -1,0 +1,3370 @@
+define_baresoil.m for p041 ran  on 11-Oct-2017 by kristine 
+TYPE 4: (not Alaska)  find new bare soil times each Water Year
+ Check for 3 bare soil Times, in order of preference:
+   [ 243-273 ] 
+   [ 260-290 ] 
+   [ 274-304 ] 
+
+ -------------  Doing  Water Year 2010 -------------
+
+
+Sat  5 quad 1:  water year 2010 
+    check RH statistics over 3 years 2008, 2009 and  2010
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  199.90  199.30|    | NaN 1.20  1.20|    [243  273]    |NaN 27  29| 
+      |    NaN  199.40  198.60|    | NaN 1.40  0.90|    [260  290]    |NaN 30  29| 
+      |    NaN  196.40  198.90|    | NaN 8.10  0.70|    [274  304]    |NaN 30  31| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.99 (m) for 2009 and period [260- 290]. (Std: 1.4(cm) nbdata:30) 
+
+Sat  5 quad 4:  water year 2010 
+    check RH statistics over 3 years 2008, 2009 and  2010
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  197.60  197.40|    | NaN 1.70  1.40|    [243  273]    |NaN 27  29| 
+      |    NaN  197.30  197.40|    | NaN 1.70  1.40|    [260  290]    |NaN 28  27| 
+      |    NaN  194.20  197.60|    | NaN 9.20  1.00|    [274  304]    |NaN 29  30| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.97 (m) for 2009 and period [260- 290]. (Std: 1.7(cm) nbdata:28) 
+
+Sat  7 quad 3:  water year 2010 
+    check RH statistics over 3 years 2008, 2009 and  2010
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  203.10  201.00|    | NaN 0.70  0.80|    [243  273]    |NaN 30  29| 
+      |    NaN  202.70  200.70|    | NaN 1.00  0.90|    [260  290]    |NaN 30  30| 
+      |    NaN  199.20  200.70|    | NaN 8.70  0.90|    [274  304]    |NaN 30  31| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 2.03 (m) for 2009 and period [260- 290]. (Std: 1.0(cm) nbdata:30) 
+
+Sat  7 quad 4:  water year 2010 
+    check RH statistics over 3 years 2008, 2009 and  2010
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  196.00  196.50|    | NaN 1.20  1.00|    [243  273]    |NaN 30  29| 
+      |    NaN  195.50  196.70|    | NaN 1.40  1.20|    [260  290]    |NaN 30  29| 
+      |    NaN  192.90  196.90|    | NaN 7.70  1.00|    [274  304]    |NaN 30  30| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.96 (m) for 2009 and period [260- 290]. (Std: 1.4(cm) nbdata:30) 
+
+Sat 12 quad 2:  water year 2010 
+    check RH statistics over 3 years 2008, 2009 and  2010
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  194.70  195.80|    | NaN 1.80  1.00|    [243  273]    |NaN 29  29| 
+      |    NaN  194.00  195.60|    | NaN 2.30  1.50|    [260  290]    |NaN 30  29| 
+      |    NaN  191.00  195.80|    | NaN 9.40  1.70|    [274  304]    |NaN 31  30| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.94 (m) for 2009 and period [260- 290]. (Std: 2.3(cm) nbdata:30) 
+
+Sat 12 quad 3:  water year 2010 
+    check RH statistics over 3 years 2008, 2009 and  2010
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  194.90  194.90|    | NaN 1.30  0.80|    [243  273]    |NaN 30  30| 
+      |    NaN  193.70  195.00|    | NaN 1.30  1.00|    [260  290]    |NaN 29  28| 
+      |    NaN  190.70  195.20|    | NaN 8.10  0.90|    [274  304]    |NaN 30  29| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.94 (m) for 2009 and period [260- 290]. (Std: 1.3(cm) nbdata:29) 
+
+Sat 15 quad 1:  water year 2010 
+    check RH statistics over 3 years 2008, 2009 and  2010
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  200.70  200.40|    | NaN 0.90  0.70|    [243  273]    |NaN 30  30| 
+      |    NaN  199.80  199.80|    | NaN 1.30  0.70|    [260  290]    |NaN 30  30| 
+      |    NaN  195.10  199.50|    | NaN 10.60  0.50|    [274  304]    |NaN 31  31| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 2.00 (m) for 2009 and period [260- 290]. (Std: 1.3(cm) nbdata:30) 
+
+Sat 15 quad 2:  water year 2010 
+    check RH statistics over 3 years 2008, 2009 and  2010
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  198.40  199.70|    | NaN 1.20  3.00|    [243  273]    |NaN 30  29| 
+      |    NaN  198.10  195.30|    | NaN 1.50  3.40|    [260  290]    |NaN 30  29| 
+      |    NaN  193.70  194.90|    | NaN 11.60  2.20|    [274  304]    |NaN 31  30| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.98 (m) for 2009 and period [260- 290]. (Std: 1.5(cm) nbdata:30) 
+
+Sat 15 quad 4:  water year 2010 
+    check RH statistics over 3 years 2008, 2009 and  2010
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  196.90  196.80|    | NaN 0.90  1.00|    [243  273]    |NaN 30  30| 
+      |    NaN  196.30  196.40|    | NaN 1.00  1.30|    [260  290]    |NaN 30  30| 
+      |    NaN  193.60  196.10|    | NaN 8.10  1.30|    [274  304]    |NaN 31  32| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.96 (m) for 2009 and period [260- 290]. (Std: 1.0(cm) nbdata:30) 
+
+Sat 17 quad 3:  water year 2010 
+    check RH statistics over 3 years 2008, 2009 and  2010
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN     NaN  194.70|    | NaN  NaN  1.30|    [243  273]    |NaN NaN  29| 
+      |    NaN  194.70  194.50|    | NaN 1.10  1.70|    [260  290]    |NaN 17  30| 
+      |    NaN  193.70  194.50|    | NaN 4.90  1.50|    [274  304]    |NaN 29  31| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.95 (m) for 2009 and period [260- 290]. (Std: 1.1(cm) nbdata:17) 
+
+Sat 25 quad 3:  water year 2010 
+    check RH statistics over 3 years 2008, 2009 and  2010
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN     NaN  195.50|    | NaN  NaN  1.30|    [243  273]    |NaN NaN  30| 
+      |    NaN     NaN  195.40|    | NaN  NaN  1.50|    [260  290]    |NaN NaN  30| 
+      |    NaN     NaN  194.70|    | NaN  NaN  1.10|    [274  304]    |NaN NaN  32| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.95 (m) for 2010 and period [274- 304]. (Std: 1.1(cm) nbdata:32) 
+
+Sat 29 quad 2:  water year 2010 
+    check RH statistics over 3 years 2008, 2009 and  2010
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  197.00  197.30|    | NaN 1.40  1.70|    [243  273]    |NaN 31  31| 
+      |    NaN  196.90  197.60|    | NaN 1.50  1.30|    [260  290]    |NaN 30  29| 
+      |    NaN  194.40  197.60|    | NaN 7.80  1.30|    [274  304]    |NaN 29  29| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.97 (m) for 2009 and period [260- 290]. (Std: 1.5(cm) nbdata:30) 
+
+Sat 29 quad 4:  water year 2010 
+    check RH statistics over 3 years 2008, 2009 and  2010
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  193.70  195.70|    | NaN 3.40  1.10|    [243  273]    |NaN 29  30| 
+      |    NaN  196.30  195.50|    | NaN 1.40  1.10|    [260  290]    |NaN 30  30| 
+      |    NaN  193.40  195.50|    | NaN 8.50  0.90|    [274  304]    |NaN 29  31| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.96 (m) for 2009 and period [260- 290]. (Std: 1.4(cm) nbdata:30) 
+
+Sat 31 quad 1:  water year 2010 
+    check RH statistics over 3 years 2008, 2009 and  2010
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  199.30  198.30|    | NaN 1.10  1.20|    [243  273]    |NaN 30  29| 
+      |    NaN  198.40  197.70|    | NaN 1.50  1.40|    [260  290]    |NaN 29  30| 
+      |    NaN  194.40  198.00|    | NaN 10.50  1.40|    [274  304]    |NaN 30  31| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.98 (m) for 2009 and period [260- 290]. (Std: 1.5(cm) nbdata:29) 
+
+Sat 31 quad 3:  water year 2010 
+    check RH statistics over 3 years 2008, 2009 and  2010
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  195.20  195.40|    | NaN 1.10  1.00|    [243  273]    |NaN 30  30| 
+      |    NaN  194.60  194.90|    | NaN 1.10  1.00|    [260  290]    |NaN 30  30| 
+      |    NaN  192.00  195.10|    | NaN 8.50  0.90|    [274  304]    |NaN 30  31| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.95 (m) for 2009 and period [260- 290]. (Std: 1.1(cm) nbdata:30) 
+
+ -------------  Doing  Water Year 2011 -------------
+
+
+Sat  5 quad 1:  water year 2011 
+    check RH statistics over 3 years 2009, 2010 and  2011
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 199.90  199.30  199.80|    |1.20 1.20  1.10|    [243  273]    |27 29  30| 
+      | 199.40  198.60  199.20|    |1.40 0.90  1.00|    [260  290]    |30 29  30| 
+      | 196.40  198.90  197.30|    |8.10 0.70  5.00|    [274  304]    |30 31  32| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.99 (m) for 2010 and period [274- 304]. (Std: 0.7(cm) nbdata:31) 
+
+Sat  5 quad 4:  water year 2011 
+    check RH statistics over 3 years 2009, 2010 and  2011
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 197.60  197.40  196.30|    |1.70 1.40  1.50|    [243  273]    |27 29  28| 
+      | 197.30  197.40  197.10|    |1.70 1.40  1.30|    [260  290]    |28 27  29| 
+      | 194.20  197.60  195.70|    |9.20 1.00  5.30|    [274  304]    |29 30  31| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.98 (m) for 2010 and period [274- 304]. (Std: 1.0(cm) nbdata:30) 
+
+Sat  7 quad 3:  water year 2011 
+    check RH statistics over 3 years 2009, 2010 and  2011
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 203.10  201.00  202.40|    |0.70 0.80  1.80|    [243  273]    |30 29  29| 
+      | 202.70  200.70  202.30|    |1.00 0.90  1.10|    [260  290]    |30 30  29| 
+      | 199.20  200.70  200.90|    |8.70 0.90  4.40|    [274  304]    |30 31  30| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 2.01 (m) for 2010 and period [274- 304]. (Std: 0.9(cm) nbdata:31) 
+
+Sat  7 quad 4:  water year 2011 
+    check RH statistics over 3 years 2009, 2010 and  2011
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 196.00  196.50  195.50|    |1.20 1.00  1.20|    [243  273]    |30 29  29| 
+      | 195.50  196.70  195.60|    |1.40 1.20  1.10|    [260  290]    |30 29  29| 
+      | 192.90  196.90  193.50|    |7.70 1.00  5.50|    [274  304]    |30 30  31| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.97 (m) for 2010 and period [274- 304]. (Std: 1.0(cm) nbdata:30) 
+
+Sat 12 quad 2:  water year 2011 
+    check RH statistics over 3 years 2009, 2010 and  2011
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 194.70  195.80  194.60|    |1.80 1.00  1.50|    [243  273]    |29 29  29| 
+      | 194.00  195.60  195.30|    |2.30 1.50  1.40|    [260  290]    |30 29  29| 
+      | 191.00  195.80  195.00|    |9.40 1.70  4.10|    [274  304]    |31 30  30| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.96 (m) for 2010 and period [274- 304]. (Std: 1.7(cm) nbdata:30) 
+
+Sat 12 quad 3:  water year 2011 
+    check RH statistics over 3 years 2009, 2010 and  2011
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 194.90  194.90  193.40|    |1.30 0.80  1.00|    [243  273]    |30 30  28| 
+      | 193.70  195.00  194.50|    |1.30 1.00  1.20|    [260  290]    |29 28  28| 
+      | 190.70  195.20  193.50|    |8.10 0.90  4.70|    [274  304]    |30 29  31| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.95 (m) for 2010 and period [274- 304]. (Std: 0.9(cm) nbdata:29) 
+
+Sat 15 quad 1:  water year 2011 
+    check RH statistics over 3 years 2009, 2010 and  2011
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 200.70  200.40  198.80|    |0.90 0.70  1.70|    [243  273]    |30 30  29| 
+      | 199.80  199.80  199.60|    |1.30 0.70  1.30|    [260  290]    |30 30  29| 
+      | 195.10  199.50  198.90|    |10.60 0.50  4.90|    [274  304]    |31 31  30| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 2.00 (m) for 2010 and period [274- 304]. (Std: 0.5(cm) nbdata:31) 
+
+Sat 15 quad 2:  water year 2011 
+    check RH statistics over 3 years 2009, 2010 and  2011
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 198.40  199.70  198.60|    |1.20 3.00  0.90|    [243  273]    |30 29  29| 
+      | 198.10  195.30  199.50|    |1.50 3.40  0.70|    [260  290]    |30 29  29| 
+      | 193.70  194.90  200.40|    |11.60 2.20  0.80|    [274  304]    |31 30  29| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Keeping RH Mean: Ground = 1.95 (m) for 2010 and period [274- 304]. (Std: 2.2(cm) nbdata:30) 
+
+Sat 15 quad 4:  water year 2011 
+    check RH statistics over 3 years 2009, 2010 and  2011
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 196.90  196.80  195.20|    |0.90 1.00  1.10|    [243  273]    |30 30  30| 
+      | 196.30  196.40  195.60|    |1.00 1.30  1.00|    [260  290]    |30 30  31| 
+      | 193.60  196.10  194.90|    |8.10 1.30  4.30|    [274  304]    |31 32  31| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.96 (m) for 2010 and period [274- 304]. (Std: 1.3(cm) nbdata:32) 
+
+Sat 17 quad 3:  water year 2011 
+    check RH statistics over 3 years 2009, 2010 and  2011
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  194.70  192.20|    | NaN 1.30  1.30|    [243  273]    |NaN 29  29| 
+      | 194.70  194.50  193.30|    |1.10 1.70  1.40|    [260  290]    |17 30  29| 
+      | 193.70  194.50  192.20|    |4.90 1.50  5.20|    [274  304]    |29 31  31| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.95 (m) for 2010 and period [274- 304]. (Std: 1.5(cm) nbdata:31) 
+
+Sat 25 quad 3:  water year 2011 
+    check RH statistics over 3 years 2009, 2010 and  2011
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  195.50  194.80|    | NaN 1.30  1.40|    [243  273]    |NaN 30  30| 
+      |    NaN  195.40  194.90|    | NaN 1.50  1.10|    [260  290]    |NaN 30  31| 
+      |    NaN  194.70  193.80|    | NaN 1.10  4.10|    [274  304]    |NaN 32  31| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.95 (m) for 2010 and period [274- 304]. (Std: 1.1(cm) nbdata:32) 
+
+Sat 29 quad 2:  water year 2011 
+    check RH statistics over 3 years 2009, 2010 and  2011
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 197.00  197.30  198.20|    |1.40 1.70  1.20|    [243  273]    |31 31  29| 
+      | 196.90  197.60  198.30|    |1.50 1.30  1.20|    [260  290]    |30 29  28| 
+      | 194.40  197.60  197.30|    |7.80 1.30  4.00|    [274  304]    |29 29  31| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.98 (m) for 2010 and period [274- 304]. (Std: 1.3(cm) nbdata:29) 
+
+Sat 29 quad 4:  water year 2011 
+    check RH statistics over 3 years 2009, 2010 and  2011
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 193.70  195.70  193.50|    |3.40 1.10  1.70|    [243  273]    |29 30  30| 
+      | 196.30  195.50  193.30|    |1.40 1.10  1.10|    [260  290]    |30 30  30| 
+      | 193.40  195.50  193.00|    |8.50 0.90  3.60|    [274  304]    |29 31  30| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.96 (m) for 2010 and period [274- 304]. (Std: 0.9(cm) nbdata:31) 
+
+Sat 31 quad 1:  water year 2011 
+    check RH statistics over 3 years 2009, 2010 and  2011
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 199.30  198.30  197.70|    |1.10 1.20  1.30|    [243  273]    |30 29  29| 
+      | 198.40  197.70  198.50|    |1.50 1.40  1.10|    [260  290]    |29 30  29| 
+      | 194.40  198.00  196.50|    |10.50 1.40  6.00|    [274  304]    |30 31  31| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.98 (m) for 2010 and period [274- 304]. (Std: 1.4(cm) nbdata:31) 
+
+Sat 31 quad 3:  water year 2011 
+    check RH statistics over 3 years 2009, 2010 and  2011
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 195.20  195.40  194.10|    |1.10 1.00  1.30|    [243  273]    |30 30  29| 
+      | 194.60  194.90  194.70|    |1.10 1.00  1.30|    [260  290]    |30 30  29| 
+      | 192.00  195.10  194.00|    |8.50 0.90  4.70|    [274  304]    |30 31  29| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.95 (m) for 2010 and period [274- 304]. (Std: 0.9(cm) nbdata:31) 
+
+ -------------  Doing  Water Year 2012 -------------
+
+
+Sat  1 quad 1:  water year 2012 
+    check RH statistics over 3 years 2010, 2011 and  2012
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN     NaN  199.30|    | NaN  NaN  1.30|    [243  273]    |NaN NaN  31| 
+      |    NaN  199.20  199.60|    | NaN 0.50  0.90|    [260  290]    |NaN  3  30| 
+      |    NaN  195.50  199.80|    | NaN 7.40  1.50|    [274  304]    |NaN 17  30| 
+
+
+    Removing stats with less than 13 number of data points
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 2.00 (m) for 2012 and period [274- 304]. (Std: 1.5(cm) nbdata:30) 
+
+Sat  1 quad 2:  water year 2012 
+    check RH statistics over 3 years 2010, 2011 and  2012
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN     NaN  194.60|    | NaN  NaN  1.80|    [243  273]    |NaN NaN  29| 
+      |    NaN  192.50  194.10|    | NaN 1.40  1.90|    [260  290]    |NaN  3  30| 
+      |    NaN  191.20  193.90|    | NaN 4.60  2.20|    [274  304]    |NaN 16  29| 
+
+
+    Removing stats with less than 13 number of data points
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.94 (m) for 2012 and period [274- 304]. (Std: 2.2(cm) nbdata:29) 
+
+Sat  1 quad 3:  water year 2012 
+    check RH statistics over 3 years 2010, 2011 and  2012
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN     NaN  200.30|    | NaN  NaN  1.70|    [243  273]    |NaN NaN  29| 
+      |    NaN  200.90  199.80|    | NaN 0.30  1.20|    [260  290]    |NaN  3  30| 
+      |    NaN  199.70  199.60|    | NaN 5.10  1.60|    [274  304]    |NaN 16  29| 
+
+
+    Removing stats with less than 13 number of data points
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 2.00 (m) for 2012 and period [274- 304]. (Std: 1.6(cm) nbdata:29) 
+
+Sat  1 quad 4:  water year 2012 
+    check RH statistics over 3 years 2010, 2011 and  2012
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN     NaN  196.50|    | NaN  NaN  1.90|    [243  273]    |NaN NaN  29| 
+      |    NaN  195.20  196.10|    | NaN 1.10  1.20|    [260  290]    |NaN  3  30| 
+      |    NaN  191.50  195.90|    | NaN 7.10  1.40|    [274  304]    |NaN 17  27| 
+
+
+    Removing stats with less than 13 number of data points
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.96 (m) for 2012 and period [274- 304]. (Std: 1.4(cm) nbdata:27) 
+
+Sat  5 quad 1:  water year 2012 
+    check RH statistics over 3 years 2010, 2011 and  2012
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 199.30  199.80  200.00|    |1.20 1.10  1.60|    [243  273]    |29 30  31| 
+      | 198.60  199.20  199.70|    |0.90 1.00  1.10|    [260  290]    |29 30  31| 
+      | 198.90  197.30  199.60|    |0.70 5.00  1.40|    [274  304]    |31 32  30| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.99 (m) for 2011 and period [260- 290]. (Std: 1.0(cm) nbdata:30) 
+
+Sat  5 quad 4:  water year 2012 
+    check RH statistics over 3 years 2010, 2011 and  2012
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 197.40  196.30  198.30|    |1.40 1.50  1.40|    [243  273]    |29 28  30| 
+      | 197.40  197.10  197.90|    |1.40 1.30  1.50|    [260  290]    |27 29  30| 
+      | 197.60  195.70  196.70|    |1.00 5.30  1.50|    [274  304]    |30 31  29| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.97 (m) for 2011 and period [260- 290]. (Std: 1.3(cm) nbdata:29) 
+
+Sat  7 quad 3:  water year 2012 
+    check RH statistics over 3 years 2010, 2011 and  2012
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 201.00  202.40  203.70|    |0.80 1.80  1.20|    [243  273]    |29 29  23| 
+      | 200.70  202.30  203.90|    |0.90 1.10  1.10|    [260  290]    |30 29  28| 
+      | 200.70  200.90  203.80|    |0.90 4.40  1.20|    [274  304]    |31 30  28| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 2.02 (m) for 2011 and period [260- 290]. (Std: 1.1(cm) nbdata:29) 
+
+Sat  7 quad 4:  water year 2012 
+    check RH statistics over 3 years 2010, 2011 and  2012
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 196.50  195.50  195.30|    |1.00 1.20  1.70|    [243  273]    |29 29  29| 
+      | 196.70  195.60  196.10|    |1.20 1.10  1.20|    [260  290]    |29 29  30| 
+      | 196.90  193.50  196.20|    |1.00 5.50  1.30|    [274  304]    |30 31  30| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.96 (m) for 2011 and period [260- 290]. (Std: 1.1(cm) nbdata:29) 
+
+Sat 12 quad 2:  water year 2012 
+    check RH statistics over 3 years 2010, 2011 and  2012
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 195.80  194.60  196.70|    |1.00 1.50  1.40|    [243  273]    |29 29  29| 
+      | 195.60  195.30  196.60|    |1.50 1.40  1.10|    [260  290]    |29 29  29| 
+      | 195.80  195.00  196.20|    |1.70 4.10  1.80|    [274  304]    |30 30  29| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.95 (m) for 2011 and period [260- 290]. (Std: 1.4(cm) nbdata:29) 
+
+Sat 12 quad 3:  water year 2012 
+    check RH statistics over 3 years 2010, 2011 and  2012
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 194.90  193.40  195.50|    |0.80 1.00  1.20|    [243  273]    |30 28  26| 
+      | 195.00  194.50  195.50|    |1.00 1.20  0.90|    [260  290]    |28 28  30| 
+      | 195.20  193.50  195.40|    |0.90 4.70  1.50|    [274  304]    |29 31  30| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.95 (m) for 2011 and period [260- 290]. (Std: 1.2(cm) nbdata:28) 
+
+Sat 15 quad 1:  water year 2012 
+    check RH statistics over 3 years 2010, 2011 and  2012
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 200.40  198.80  200.10|    |0.70 1.70  1.40|    [243  273]    |30 29  29| 
+      | 199.80  199.60  200.60|    |0.70 1.30  1.30|    [260  290]    |30 29  30| 
+      | 199.50  198.90  200.90|    |0.50 4.90  1.00|    [274  304]    |31 30  30| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 2.00 (m) for 2011 and period [260- 290]. (Std: 1.3(cm) nbdata:29) 
+
+Sat 15 quad 2:  water year 2012 
+    check RH statistics over 3 years 2010, 2011 and  2012
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 199.70  198.60  202.20|    |3.00 0.90  0.90|    [243  273]    |29 29  29| 
+      | 195.30  199.50  201.80|    |3.40 0.70  0.50|    [260  290]    |29 29  30| 
+      | 194.90  200.40  201.20|    |2.20 0.80  0.80|    [274  304]    |30 29  29| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Keeping RH Mean: Ground = 2.00 (m) for 2011 and period [274- 304]. (Std: 0.8(cm) nbdata:29) 
+
+Sat 15 quad 4:  water year 2012 
+    check RH statistics over 3 years 2010, 2011 and  2012
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 196.80  195.20  197.90|    |1.00 1.10  1.00|    [243  273]    |30 30  30| 
+      | 196.40  195.60  197.80|    |1.30 1.00  0.90|    [260  290]    |30 31  30| 
+      | 196.10  194.90  197.30|    |1.30 4.30  1.40|    [274  304]    |32 31  29| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.96 (m) for 2011 and period [260- 290]. (Std: 1.0(cm) nbdata:31) 
+
+Sat 17 quad 3:  water year 2012 
+    check RH statistics over 3 years 2010, 2011 and  2012
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 194.70  192.20  193.90|    |1.30 1.30  1.00|    [243  273]    |29 29  29| 
+      | 194.50  193.30  194.10|    |1.70 1.40  0.70|    [260  290]    |30 29  30| 
+      | 194.50  192.20  193.80|    |1.50 5.20  0.60|    [274  304]    |31 31  28| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.93 (m) for 2011 and period [260- 290]. (Std: 1.4(cm) nbdata:29) 
+
+Sat 25 quad 3:  water year 2012 
+    check RH statistics over 3 years 2010, 2011 and  2012
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 195.50  194.80  196.20|    |1.30 1.40  1.40|    [243  273]    |30 30  30| 
+      | 195.40  194.90  196.40|    |1.50 1.10  1.10|    [260  290]    |30 31  30| 
+      | 194.70  193.80  196.10|    |1.10 4.10  1.70|    [274  304]    |32 31  30| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.95 (m) for 2011 and period [260- 290]. (Std: 1.1(cm) nbdata:31) 
+
+Sat 29 quad 2:  water year 2012 
+    check RH statistics over 3 years 2010, 2011 and  2012
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 197.30  198.20  199.40|    |1.70 1.20  1.10|    [243  273]    |31 29  29| 
+      | 197.60  198.30  198.80|    |1.30 1.20  1.00|    [260  290]    |29 28  30| 
+      | 197.60  197.30  198.20|    |1.30 4.00  1.40|    [274  304]    |29 31  30| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.98 (m) for 2011 and period [260- 290]. (Std: 1.2(cm) nbdata:28) 
+
+Sat 29 quad 4:  water year 2012 
+    check RH statistics over 3 years 2010, 2011 and  2012
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 195.70  193.50  194.80|    |1.10 1.70  1.50|    [243  273]    |30 30  29| 
+      | 195.50  193.30  194.90|    |1.10 1.10  1.30|    [260  290]    |30 30  30| 
+      | 195.50  193.00  195.00|    |0.90 3.60  1.70|    [274  304]    |31 30  30| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.93 (m) for 2011 and period [260- 290]. (Std: 1.1(cm) nbdata:30) 
+
+Sat 31 quad 1:  water year 2012 
+    check RH statistics over 3 years 2010, 2011 and  2012
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 198.30  197.70  200.20|    |1.20 1.30  1.30|    [243  273]    |29 29  29| 
+      | 197.70  198.50  200.20|    |1.40 1.10  1.00|    [260  290]    |30 29  30| 
+      | 198.00  196.50  200.30|    |1.40 6.00  1.10|    [274  304]    |31 31  30| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.99 (m) for 2011 and period [260- 290]. (Std: 1.1(cm) nbdata:29) 
+
+Sat 31 quad 3:  water year 2012 
+    check RH statistics over 3 years 2010, 2011 and  2012
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 195.40  194.10  195.40|    |1.00 1.30  1.10|    [243  273]    |30 29  29| 
+      | 194.90  194.70  195.30|    |1.00 1.30  0.80|    [260  290]    |30 29  30| 
+      | 195.10  194.00  195.60|    |0.90 4.70  1.20|    [274  304]    |31 29  30| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.95 (m) for 2011 and period [260- 290]. (Std: 1.3(cm) nbdata:29) 
+
+ -------------  Doing  Water Year 2013 -------------
+
+
+Sat  1 quad 1:  water year 2013 
+    check RH statistics over 3 years 2011, 2012 and  2013
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  199.30  197.40|    | NaN 1.30  2.60|    [243  273]    |NaN 31  30| 
+      | 199.20  199.60  196.40|    |0.50 0.90  0.80|    [260  290]    | 3 30  30| 
+      | 195.50  199.80  196.00|    |7.40 1.50  1.00|    [274  304]    |17 30  31| 
+
+
+    Removing stats with less than 13 number of data points
+    Removing stats with STD higher than 3.0 (cm) 
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 2.00 (m) for 2012 and period [274- 304]. (Std: 1.5(cm) nbdata:30) 
+
+Sat  1 quad 2:  water year 2013 
+    check RH statistics over 3 years 2011, 2012 and  2013
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  194.60  187.80|    | NaN 1.80  2.40|    [243  273]    |NaN 29  30| 
+      | 192.50  194.10  187.30|    |1.40 1.90  0.80|    [260  290]    | 3 30  30| 
+      | 191.20  193.90  187.80|    |4.60 2.20  0.50|    [274  304]    |16 29  31| 
+
+
+    Removing stats with less than 13 number of data points
+    Removing stats with STD higher than 3.0 (cm) 
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.94 (m) for 2012 and period [274- 304]. (Std: 2.2(cm) nbdata:29) 
+
+Sat  1 quad 3:  water year 2013 
+    check RH statistics over 3 years 2011, 2012 and  2013
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  200.30  195.90|    | NaN 1.70  2.00|    [243  273]    |NaN 29  30| 
+      | 200.90  199.80  194.90|    |0.30 1.20  0.60|    [260  290]    | 3 30  30| 
+      | 199.70  199.60  195.30|    |5.10 1.60  0.40|    [274  304]    |16 29  31| 
+
+
+    Removing stats with less than 13 number of data points
+    Removing stats with STD higher than 3.0 (cm) 
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 2.00 (m) for 2012 and period [274- 304]. (Std: 1.6(cm) nbdata:29) 
+
+Sat  1 quad 4:  water year 2013 
+    check RH statistics over 3 years 2011, 2012 and  2013
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  196.50  193.20|    | NaN 1.90  2.20|    [243  273]    |NaN 29  30| 
+      | 195.20  196.10  193.00|    |1.10 1.20  0.80|    [260  290]    | 3 30  30| 
+      | 191.50  195.90  193.30|    |7.10 1.40  0.50|    [274  304]    |17 27  31| 
+
+
+    Removing stats with less than 13 number of data points
+    Removing stats with STD higher than 3.0 (cm) 
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.96 (m) for 2012 and period [274- 304]. (Std: 1.4(cm) nbdata:27) 
+
+Sat  5 quad 1:  water year 2013 
+    check RH statistics over 3 years 2011, 2012 and  2013
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 199.80  200.00  196.00|    |1.10 1.60  3.50|    [243  273]    |30 31  31| 
+      | 199.20  199.70  194.50|    |1.00 1.10  0.90|    [260  290]    |30 31  30| 
+      | 197.30  199.60  194.40|    |5.00 1.40  0.80|    [274  304]    |32 30  30| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 2.00 (m) for 2012 and period [274- 304]. (Std: 1.4(cm) nbdata:30) 
+
+Sat  5 quad 4:  water year 2013 
+    check RH statistics over 3 years 2011, 2012 and  2013
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 196.30  198.30  192.60|    |1.50 1.40  2.30|    [243  273]    |28 30  30| 
+      | 197.10  197.90  192.10|    |1.30 1.50  0.90|    [260  290]    |29 30  30| 
+      | 195.70  196.70  192.80|    |5.30 1.50  0.70|    [274  304]    |31 29  31| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Keeping RH Mean: Ground = 1.97 (m) for 2012 and period [274- 304]. (Std: 1.5(cm) nbdata:29) 
+
+Sat  7 quad 3:  water year 2013 
+    check RH statistics over 3 years 2011, 2012 and  2013
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 202.40  203.70  198.50|    |1.80 1.20  1.80|    [243  273]    |29 23  30| 
+      | 202.30  203.90  198.30|    |1.10 1.10  0.50|    [260  290]    |29 28  30| 
+      | 200.90  203.80  198.30|    |4.40 1.20  0.50|    [274  304]    |30 28  31| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 2.04 (m) for 2012 and period [274- 304]. (Std: 1.2(cm) nbdata:28) 
+
+Sat  7 quad 4:  water year 2013 
+    check RH statistics over 3 years 2011, 2012 and  2013
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 195.50  195.30  195.00|    |1.20 1.70  1.80|    [243  273]    |29 29  30| 
+      | 195.60  196.10  193.70|    |1.10 1.20  1.00|    [260  290]    |29 30  30| 
+      | 193.50  196.20  193.50|    |5.50 1.30  1.00|    [274  304]    |31 30  31| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.96 (m) for 2012 and period [274- 304]. (Std: 1.3(cm) nbdata:30) 
+
+Sat 12 quad 2:  water year 2013 
+    check RH statistics over 3 years 2011, 2012 and  2013
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 194.60  196.70  190.30|    |1.50 1.40  2.80|    [243  273]    |29 29  28| 
+      | 195.30  196.60  189.50|    |1.40 1.10  0.80|    [260  290]    |29 29  25| 
+      | 195.00  196.20  190.00|    |4.10 1.80  0.50|    [274  304]    |30 29  26| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.96 (m) for 2012 and period [274- 304]. (Std: 1.8(cm) nbdata:29) 
+
+Sat 12 quad 3:  water year 2013 
+    check RH statistics over 3 years 2011, 2012 and  2013
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 193.40  195.50  191.90|    |1.00 1.20  2.90|    [243  273]    |28 26  30| 
+      | 194.50  195.50  190.20|    |1.20 0.90  0.60|    [260  290]    |28 30  30| 
+      | 193.50  195.40  190.20|    |4.70 1.50  0.60|    [274  304]    |31 30  31| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.95 (m) for 2012 and period [274- 304]. (Std: 1.5(cm) nbdata:30) 
+
+Sat 15 quad 1:  water year 2013 
+    check RH statistics over 3 years 2011, 2012 and  2013
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 198.80  200.10  196.70|    |1.70 1.40  2.80|    [243  273]    |29 29  30| 
+      | 199.60  200.60  195.50|    |1.30 1.30  0.70|    [260  290]    |29 30  30| 
+      | 198.90  200.90  195.10|    |4.90 1.00  0.80|    [274  304]    |30 30  31| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 2.01 (m) for 2012 and period [274- 304]. (Std: 1.0(cm) nbdata:30) 
+
+Sat 15 quad 2:  water year 2013 
+    check RH statistics over 3 years 2011, 2012 and  2013
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 198.60  202.20     NaN|    |0.90 0.90   NaN|    [243  273]    |29 29  NaN| 
+      | 199.50  201.80     NaN|    |0.70 0.50   NaN|    [260  290]    |29 30  NaN| 
+      | 200.40  201.20     NaN|    |0.80 0.80   NaN|    [274  304]    |29 29  NaN| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 2.01 (m) for 2012 and period [274- 304]. (Std: 0.8(cm) nbdata:29) 
+
+Sat 15 quad 4:  water year 2013 
+    check RH statistics over 3 years 2011, 2012 and  2013
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 195.20  197.90  194.30|    |1.10 1.00  2.10|    [243  273]    |30 30  29| 
+      | 195.60  197.80  193.50|    |1.00 0.90  0.50|    [260  290]    |31 30  28| 
+      | 194.90  197.30  193.40|    |4.30 1.40  0.50|    [274  304]    |31 29  31| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.97 (m) for 2012 and period [274- 304]. (Std: 1.4(cm) nbdata:29) 
+
+Sat 17 quad 3:  water year 2013 
+    check RH statistics over 3 years 2011, 2012 and  2013
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 192.20  193.90  191.00|    |1.30 1.00  2.00|    [243  273]    |29 29  30| 
+      | 193.30  194.10  190.20|    |1.40 0.70  0.50|    [260  290]    |29 30  29| 
+      | 192.20  193.80  190.10|    |5.20 0.60  0.60|    [274  304]    |31 28  30| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.94 (m) for 2012 and period [274- 304]. (Std: 0.6(cm) nbdata:28) 
+
+Sat 24 quad 1:  water year 2013 
+    check RH statistics over 3 years 2011, 2012 and  2013
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN     NaN  195.70|    | NaN  NaN  3.50|    [243  273]    |NaN NaN  30| 
+      |    NaN     NaN  194.40|    | NaN  NaN  0.80|    [260  290]    |NaN NaN  30| 
+      |    NaN     NaN  194.30|    | NaN  NaN  0.80|    [274  304]    |NaN NaN  31| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.94 (m) for 2013 and period [274- 304]. (Std: 0.8(cm) nbdata:31) 
+
+Sat 24 quad 2:  water year 2013 
+    check RH statistics over 3 years 2011, 2012 and  2013
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN     NaN  186.80|    | NaN  NaN  3.60|    [243  273]    |NaN NaN  30| 
+      |    NaN     NaN  186.00|    | NaN  NaN  0.90|    [260  290]    |NaN NaN  29| 
+      |    NaN     NaN  186.40|    | NaN  NaN  0.80|    [274  304]    |NaN NaN  30| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.86 (m) for 2013 and period [274- 304]. (Std: 0.8(cm) nbdata:30) 
+
+Sat 24 quad 3:  water year 2013 
+    check RH statistics over 3 years 2011, 2012 and  2013
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN     NaN  195.50|    | NaN  NaN  2.60|    [243  273]    |NaN NaN  30| 
+      |    NaN     NaN  194.20|    | NaN  NaN  0.50|    [260  290]    |NaN NaN  30| 
+      |    NaN     NaN  194.50|    | NaN  NaN  0.50|    [274  304]    |NaN NaN  31| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.95 (m) for 2013 and period [274- 304]. (Std: 0.5(cm) nbdata:31) 
+
+Sat 24 quad 4:  water year 2013 
+    check RH statistics over 3 years 2011, 2012 and  2013
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN     NaN  192.60|    | NaN  NaN  2.10|    [243  273]    |NaN NaN  27| 
+      |    NaN     NaN  192.00|    | NaN  NaN  0.50|    [260  290]    |NaN NaN  30| 
+      |    NaN     NaN  191.90|    | NaN  NaN  0.50|    [274  304]    |NaN NaN  32| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.92 (m) for 2013 and period [274- 304]. (Std: 0.5(cm) nbdata:32) 
+
+Sat 25 quad 3:  water year 2013 
+    check RH statistics over 3 years 2011, 2012 and  2013
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 194.80  196.20  192.80|    |1.40 1.40  1.70|    [243  273]    |30 30  29| 
+      | 194.90  196.40  192.00|    |1.10 1.10  0.40|    [260  290]    |31 30  29| 
+      | 193.80  196.10  191.90|    |4.10 1.70  0.50|    [274  304]    |31 30  31| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.96 (m) for 2012 and period [274- 304]. (Std: 1.7(cm) nbdata:30) 
+
+Sat 27 quad 1:  water year 2013 
+    check RH statistics over 3 years 2011, 2012 and  2013
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN     NaN  197.70|    | NaN  NaN  2.50|    [243  273]    |NaN NaN  30| 
+      |    NaN     NaN  196.20|    | NaN  NaN  0.80|    [260  290]    |NaN NaN  30| 
+      |    NaN     NaN  196.20|    | NaN  NaN  0.90|    [274  304]    |NaN NaN  31| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.96 (m) for 2013 and period [274- 304]. (Std: 0.9(cm) nbdata:31) 
+
+Sat 27 quad 2:  water year 2013 
+    check RH statistics over 3 years 2011, 2012 and  2013
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN     NaN  189.10|    | NaN  NaN  2.30|    [243  273]    |NaN NaN  30| 
+      |    NaN     NaN  188.90|    | NaN  NaN  0.90|    [260  290]    |NaN NaN  31| 
+      |    NaN     NaN  188.90|    | NaN  NaN  1.00|    [274  304]    |NaN NaN  32| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.89 (m) for 2013 and period [274- 304]. (Std: 1.0(cm) nbdata:32) 
+
+Sat 27 quad 3:  water year 2013 
+    check RH statistics over 3 years 2011, 2012 and  2013
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN     NaN  196.50|    | NaN  NaN  3.10|    [243  273]    |NaN NaN  30| 
+      |    NaN     NaN  196.20|    | NaN  NaN  1.20|    [260  290]    |NaN NaN  30| 
+      |    NaN     NaN  197.00|    | NaN  NaN  0.70|    [274  304]    |NaN NaN  31| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.97 (m) for 2013 and period [274- 304]. (Std: 0.7(cm) nbdata:31) 
+
+Sat 27 quad 4:  water year 2013 
+    check RH statistics over 3 years 2011, 2012 and  2013
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN     NaN  193.40|    | NaN  NaN  2.00|    [243  273]    |NaN NaN  30| 
+      |    NaN     NaN  192.70|    | NaN  NaN  0.50|    [260  290]    |NaN NaN  30| 
+      |    NaN     NaN  192.40|    | NaN  NaN  1.00|    [274  304]    |NaN NaN  31| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.92 (m) for 2013 and period [274- 304]. (Std: 1.0(cm) nbdata:31) 
+
+Sat 29 quad 2:  water year 2013 
+    check RH statistics over 3 years 2011, 2012 and  2013
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 198.20  199.40  193.40|    |1.20 1.10  2.50|    [243  273]    |29 29  30| 
+      | 198.30  198.80  191.80|    |1.20 1.00  0.40|    [260  290]    |28 30  30| 
+      | 197.30  198.20  191.50|    |4.00 1.40  0.40|    [274  304]    |31 30  31| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.98 (m) for 2012 and period [274- 304]. (Std: 1.4(cm) nbdata:30) 
+
+Sat 29 quad 4:  water year 2013 
+    check RH statistics over 3 years 2011, 2012 and  2013
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 193.50  194.80  191.30|    |1.70 1.50  2.20|    [243  273]    |30 29  30| 
+      | 193.30  194.90  190.80|    |1.10 1.30  0.80|    [260  290]    |30 30  28| 
+      | 193.00  195.00  191.20|    |3.60 1.70  0.60|    [274  304]    |30 30  29| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.95 (m) for 2012 and period [274- 304]. (Std: 1.7(cm) nbdata:30) 
+
+Sat 31 quad 1:  water year 2013 
+    check RH statistics over 3 years 2011, 2012 and  2013
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 197.70  200.20  196.50|    |1.30 1.30  2.50|    [243  273]    |29 29  30| 
+      | 198.50  200.20  195.30|    |1.10 1.00  0.40|    [260  290]    |29 30  30| 
+      | 196.50  200.30  195.30|    |6.00 1.10  0.50|    [274  304]    |31 30  31| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 2.00 (m) for 2012 and period [274- 304]. (Std: 1.1(cm) nbdata:30) 
+
+Sat 31 quad 3:  water year 2013 
+    check RH statistics over 3 years 2011, 2012 and  2013
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 194.10  195.40  191.70|    |1.30 1.10  1.90|    [243  273]    |29 29  30| 
+      | 194.70  195.30  190.40|    |1.30 0.80  0.50|    [260  290]    |29 30  30| 
+      | 194.00  195.60  190.50|    |4.70 1.20  0.40|    [274  304]    |29 30  31| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.96 (m) for 2012 and period [274- 304]. (Std: 1.2(cm) nbdata:30) 
+
+ -------------  Doing  Water Year 2014 -------------
+
+
+Sat  1 quad 1:  water year 2014 
+    check RH statistics over 3 years 2012, 2013 and  2014
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 199.30  197.40  198.10|    |1.30 2.60  0.60|    [243  273]    |31 30  30| 
+      | 199.60  196.40  198.20|    |0.90 0.80  0.70|    [260  290]    |30 30  30| 
+      | 199.80  196.00  198.00|    |1.50 1.00  0.60|    [274  304]    |30 31  30| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.96 (m) for 2013 and period [274- 304]. (Std: 1.0(cm) nbdata:31) 
+
+Sat  1 quad 2:  water year 2014 
+    check RH statistics over 3 years 2012, 2013 and  2014
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 194.60  187.80  187.20|    |1.80 2.40  1.70|    [243  273]    |29 30  30| 
+      | 194.10  187.30  188.10|    |1.90 0.80  1.20|    [260  290]    |30 30  30| 
+      | 193.90  187.80  188.40|    |2.20 0.50  1.50|    [274  304]    |29 31  30| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.88 (m) for 2013 and period [274- 304]. (Std: 0.5(cm) nbdata:31) 
+
+Sat  1 quad 3:  water year 2014 
+    check RH statistics over 3 years 2012, 2013 and  2014
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 200.30  195.90  199.80|    |1.70 2.00  1.00|    [243  273]    |29 30  30| 
+      | 199.80  194.90  199.20|    |1.20 0.60  1.40|    [260  290]    |30 30  30| 
+      | 199.60  195.30  198.40|    |1.60 0.40  0.90|    [274  304]    |29 31  30| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.95 (m) for 2013 and period [274- 304]. (Std: 0.4(cm) nbdata:31) 
+
+Sat  1 quad 4:  water year 2014 
+    check RH statistics over 3 years 2012, 2013 and  2014
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 196.50  193.20  195.10|    |1.90 2.20  0.80|    [243  273]    |29 30  30| 
+      | 196.10  193.00  195.00|    |1.20 0.80  0.70|    [260  290]    |30 30  30| 
+      | 195.90  193.30  195.00|    |1.40 0.50  0.70|    [274  304]    |27 31  30| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.93 (m) for 2013 and period [274- 304]. (Std: 0.5(cm) nbdata:31) 
+
+Sat  5 quad 1:  water year 2014 
+    check RH statistics over 3 years 2012, 2013 and  2014
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 200.00  196.00  198.70|    |1.60 3.50  0.90|    [243  273]    |31 31  30| 
+      | 199.70  194.50  198.60|    |1.10 0.90  1.10|    [260  290]    |31 30  29| 
+      | 199.60  194.40  198.10|    |1.40 0.80  0.70|    [274  304]    |30 30  30| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.94 (m) for 2013 and period [274- 304]. (Std: 0.8(cm) nbdata:30) 
+
+Sat  5 quad 4:  water year 2014 
+    check RH statistics over 3 years 2012, 2013 and  2014
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 198.30  192.60  193.10|    |1.40 2.30  1.50|    [243  273]    |30 30  30| 
+      | 197.90  192.10  193.90|    |1.50 0.90  0.90|    [260  290]    |30 30  30| 
+      | 196.70  192.80  194.20|    |1.50 0.70  1.10|    [274  304]    |29 31  30| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.93 (m) for 2013 and period [274- 304]. (Std: 0.7(cm) nbdata:31) 
+
+Sat  6 quad 1:  water year 2014 
+    check RH statistics over 3 years 2012, 2013 and  2014
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN     NaN  198.60|    | NaN  NaN  1.10|    [243  273]    |NaN NaN  30| 
+      |    NaN     NaN  198.60|    | NaN  NaN  1.10|    [260  290]    |NaN NaN  30| 
+      |    NaN     NaN  198.10|    | NaN  NaN  0.70|    [274  304]    |NaN NaN  30| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.98 (m) for 2014 and period [274- 304]. (Std: 0.7(cm) nbdata:30) 
+
+Sat  6 quad 3:  water year 2014 
+    check RH statistics over 3 years 2012, 2013 and  2014
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN     NaN  191.80|    | NaN  NaN  1.30|    [243  273]    |NaN NaN  30| 
+      |    NaN     NaN  192.90|    | NaN  NaN  0.90|    [260  290]    |NaN NaN  30| 
+      |    NaN     NaN  193.60|    | NaN  NaN  1.10|    [274  304]    |NaN NaN  30| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.94 (m) for 2014 and period [274- 304]. (Std: 1.1(cm) nbdata:30) 
+
+Sat  6 quad 4:  water year 2014 
+    check RH statistics over 3 years 2012, 2013 and  2014
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN     NaN  191.80|    | NaN  NaN  1.30|    [243  273]    |NaN NaN  29| 
+      |    NaN     NaN  192.90|    | NaN  NaN  0.90|    [260  290]    |NaN NaN  29| 
+      |    NaN     NaN  193.60|    | NaN  NaN  1.10|    [274  304]    |NaN NaN  30| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.94 (m) for 2014 and period [274- 304]. (Std: 1.1(cm) nbdata:30) 
+
+Sat  7 quad 3:  water year 2014 
+    check RH statistics over 3 years 2012, 2013 and  2014
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 203.70  198.50  200.20|    |1.20 1.80  1.10|    [243  273]    |23 30  27| 
+      | 203.90  198.30  201.00|    |1.10 0.50  0.80|    [260  290]    |28 30  23| 
+      | 203.80  198.30  201.20|    |1.20 0.50  0.90|    [274  304]    |28 31  26| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.98 (m) for 2013 and period [274- 304]. (Std: 0.5(cm) nbdata:31) 
+
+Sat  7 quad 4:  water year 2014 
+    check RH statistics over 3 years 2012, 2013 and  2014
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 195.30  195.00  191.90|    |1.70 1.80  1.20|    [243  273]    |29 30  30| 
+      | 196.10  193.70  191.60|    |1.20 1.00  1.30|    [260  290]    |30 30  30| 
+      | 196.20  193.50  191.20|    |1.30 1.00  1.00|    [274  304]    |30 31  30| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.94 (m) for 2013 and period [274- 304]. (Std: 1.0(cm) nbdata:31) 
+
+Sat  9 quad 2:  water year 2014 
+    check RH statistics over 3 years 2012, 2013 and  2014
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN     NaN  193.80|    | NaN  NaN  0.90|    [243  273]    |NaN NaN  12| 
+      |    NaN     NaN  193.60|    | NaN  NaN  0.90|    [260  290]    |NaN NaN  29| 
+      |    NaN     NaN  193.70|    | NaN  NaN  0.80|    [274  304]    |NaN NaN  30| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.94 (m) for 2014 and period [274- 304]. (Std: 0.8(cm) nbdata:30) 
+
+Sat  9 quad 4:  water year 2014 
+    check RH statistics over 3 years 2012, 2013 and  2014
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN     NaN  193.40|    | NaN  NaN  1.00|    [243  273]    |NaN NaN  12| 
+      |    NaN     NaN  193.20|    | NaN  NaN  1.00|    [260  290]    |NaN NaN  29| 
+      |    NaN     NaN  193.40|    | NaN  NaN  0.90|    [274  304]    |NaN NaN  31| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.93 (m) for 2014 and period [274- 304]. (Std: 0.9(cm) nbdata:31) 
+
+Sat 12 quad 2:  water year 2014 
+    check RH statistics over 3 years 2012, 2013 and  2014
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 196.70  190.30  193.00|    |1.40 2.80  1.70|    [243  273]    |29 28  27| 
+      | 196.60  189.50  194.40|    |1.10 0.80  0.80|    [260  290]    |29 25  24| 
+      | 196.20  190.00  194.30|    |1.80 0.50  0.70|    [274  304]    |29 26  23| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.90 (m) for 2013 and period [274- 304]. (Std: 0.5(cm) nbdata:26) 
+
+Sat 12 quad 3:  water year 2014 
+    check RH statistics over 3 years 2012, 2013 and  2014
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 195.50  191.90  192.70|    |1.20 2.90  1.10|    [243  273]    |26 30  30| 
+      | 195.50  190.20  193.30|    |0.90 0.60  0.80|    [260  290]    |30 30  30| 
+      | 195.40  190.20  194.00|    |1.50 0.60  1.20|    [274  304]    |30 31  30| 
+
+    Keeping RH Mean: Ground = 1.90 (m) for 2013 and period [274- 304]. (Std: 0.6(cm) nbdata:31) 
+
+Sat 15 quad 1:  water year 2014 
+    check RH statistics over 3 years 2012, 2013 and  2014
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 200.10  196.70  198.30|    |1.40 2.80  0.70|    [243  273]    |29 30  30| 
+      | 200.60  195.50  198.40|    |1.30 0.70  0.70|    [260  290]    |30 30  30| 
+      | 200.90  195.10  198.20|    |1.00 0.80  0.60|    [274  304]    |30 31  31| 
+
+    Keeping RH Mean: Ground = 1.95 (m) for 2013 and period [274- 304]. (Std: 0.8(cm) nbdata:31) 
+
+Sat 15 quad 2:  water year 2014 
+  Healthy but No Data for sat 15 and quad 2 during WY 2014 
+
+Sat 15 quad 4:  water year 2014 
+    check RH statistics over 3 years 2012, 2013 and  2014
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 197.90  194.30  194.20|    |1.00 2.10  1.50|    [243  273]    |30 29  29| 
+      | 197.80  193.50  195.40|    |0.90 0.50  1.00|    [260  290]    |30 28  30| 
+      | 197.30  193.40  195.50|    |1.40 0.50  0.80|    [274  304]    |29 31  30| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.93 (m) for 2013 and period [274- 304]. (Std: 0.5(cm) nbdata:31) 
+
+Sat 17 quad 3:  water year 2014 
+    check RH statistics over 3 years 2012, 2013 and  2014
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 193.90  191.00  192.90|    |1.00 2.00  0.90|    [243  273]    |29 30  30| 
+      | 194.10  190.20  193.00|    |0.70 0.50  0.90|    [260  290]    |30 29  30| 
+      | 193.80  190.10  192.50|    |0.60 0.60  0.60|    [274  304]    |28 30  30| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.90 (m) for 2013 and period [274- 304]. (Std: 0.6(cm) nbdata:30) 
+
+Sat 24 quad 1:  water year 2014 
+    check RH statistics over 3 years 2012, 2013 and  2014
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  195.70  197.20|    | NaN 3.50  1.00|    [243  273]    |NaN 30  30| 
+      |    NaN  194.40  197.20|    | NaN 0.80  1.20|    [260  290]    |NaN 30  30| 
+      |    NaN  194.30  196.90|    | NaN 0.80  1.00|    [274  304]    |NaN 31  31| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.94 (m) for 2013 and period [274- 304]. (Std: 0.8(cm) nbdata:31) 
+
+Sat 24 quad 2:  water year 2014 
+    check RH statistics over 3 years 2012, 2013 and  2014
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  186.80  187.10|    | NaN 3.60  2.70|    [243  273]    |NaN 30  29| 
+      |    NaN  186.00  188.20|    | NaN 0.90  1.80|    [260  290]    |NaN 29  28| 
+      |    NaN  186.40  188.10|    | NaN 0.80  2.00|    [274  304]    |NaN 30  22| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.86 (m) for 2013 and period [274- 304]. (Std: 0.8(cm) nbdata:30) 
+
+Sat 24 quad 3:  water year 2014 
+    check RH statistics over 3 years 2012, 2013 and  2014
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  195.50  198.50|    | NaN 2.60  0.80|    [243  273]    |NaN 30  30| 
+      |    NaN  194.20  198.20|    | NaN 0.50  0.90|    [260  290]    |NaN 30  30| 
+      |    NaN  194.50  198.00|    | NaN 0.50  0.80|    [274  304]    |NaN 31  31| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.95 (m) for 2013 and period [274- 304]. (Std: 0.5(cm) nbdata:31) 
+
+Sat 24 quad 4:  water year 2014 
+    check RH statistics over 3 years 2012, 2013 and  2014
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  192.60  192.60|    | NaN 2.10  0.80|    [243  273]    |NaN 27  24| 
+      |    NaN  192.00  193.30|    | NaN 0.50  0.70|    [260  290]    |NaN 30  23| 
+      |    NaN  191.90  193.80|    | NaN 0.50  0.90|    [274  304]    |NaN 32  27| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.92 (m) for 2013 and period [274- 304]. (Std: 0.5(cm) nbdata:32) 
+
+Sat 25 quad 3:  water year 2014 
+    check RH statistics over 3 years 2012, 2013 and  2014
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 196.20  192.80  193.20|    |1.40 1.70  1.30|    [243  273]    |30 29  30| 
+      | 196.40  192.00  193.60|    |1.10 0.40  0.90|    [260  290]    |30 29  29| 
+      | 196.10  191.90  193.00|    |1.70 0.50  0.70|    [274  304]    |30 31  29| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.92 (m) for 2013 and period [274- 304]. (Std: 0.5(cm) nbdata:31) 
+
+Sat 27 quad 1:  water year 2014 
+    check RH statistics over 3 years 2012, 2013 and  2014
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  197.70  198.50|    | NaN 2.50  0.70|    [243  273]    |NaN 30  30| 
+      |    NaN  196.20  198.30|    | NaN 0.80  0.70|    [260  290]    |NaN 30  30| 
+      |    NaN  196.20  198.10|    | NaN 0.90  0.50|    [274  304]    |NaN 31  30| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.96 (m) for 2013 and period [274- 304]. (Std: 0.9(cm) nbdata:31) 
+
+Sat 27 quad 2:  water year 2014 
+    check RH statistics over 3 years 2012, 2013 and  2014
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  189.10  188.90|    | NaN 2.30  2.60|    [243  273]    |NaN 30  30| 
+      |    NaN  188.90  189.80|    | NaN 0.90  2.10|    [260  290]    |NaN 31  29| 
+      |    NaN  188.90  190.10|    | NaN 1.00  2.00|    [274  304]    |NaN 32  28| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.89 (m) for 2013 and period [274- 304]. (Std: 1.0(cm) nbdata:32) 
+
+Sat 27 quad 3:  water year 2014 
+    check RH statistics over 3 years 2012, 2013 and  2014
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  196.50  200.40|    | NaN 3.10  1.20|    [243  273]    |NaN 30  30| 
+      |    NaN  196.20  200.50|    | NaN 1.20  1.30|    [260  290]    |NaN 30  30| 
+      |    NaN  197.00  200.20|    | NaN 0.70  1.10|    [274  304]    |NaN 31  30| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.97 (m) for 2013 and period [274- 304]. (Std: 0.7(cm) nbdata:31) 
+
+Sat 27 quad 4:  water year 2014 
+    check RH statistics over 3 years 2012, 2013 and  2014
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  193.40  193.60|    | NaN 2.00  0.90|    [243  273]    |NaN 30  30| 
+      |    NaN  192.70  193.80|    | NaN 0.50  0.90|    [260  290]    |NaN 30  30| 
+      |    NaN  192.40  193.90|    | NaN 1.00  0.80|    [274  304]    |NaN 31  30| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.92 (m) for 2013 and period [274- 304]. (Std: 1.0(cm) nbdata:31) 
+
+Sat 29 quad 2:  water year 2014 
+    check RH statistics over 3 years 2012, 2013 and  2014
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 199.40  193.40  194.90|    |1.10 2.50  1.10|    [243  273]    |29 30  29| 
+      | 198.80  191.80  195.10|    |1.00 0.40  1.00|    [260  290]    |30 30  29| 
+      | 198.20  191.50  194.50|    |1.40 0.40  0.80|    [274  304]    |30 31  28| 
+
+    Keeping RH Mean: Ground = 1.92 (m) for 2013 and period [274- 304]. (Std: 0.4(cm) nbdata:31) 
+
+Sat 29 quad 4:  water year 2014 
+    check RH statistics over 3 years 2012, 2013 and  2014
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 194.80  191.30  191.40|    |1.50 2.20  1.90|    [243  273]    |29 30  29| 
+      | 194.90  190.80  193.40|    |1.30 0.80  0.90|    [260  290]    |30 28  29| 
+      | 195.00  191.20  194.30|    |1.70 0.60  1.20|    [274  304]    |30 29  30| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.91 (m) for 2013 and period [274- 304]. (Std: 0.6(cm) nbdata:29) 
+
+Sat 30 quad 4:  water year 2014 
+    check RH statistics over 3 years 2012, 2013 and  2014
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN     NaN  193.80|    | NaN  NaN  1.50|    [243  273]    |NaN NaN  30| 
+      |    NaN     NaN  194.80|    | NaN  NaN  0.90|    [260  290]    |NaN NaN  30| 
+      |    NaN     NaN  195.10|    | NaN  NaN  0.90|    [274  304]    |NaN NaN  30| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.95 (m) for 2014 and period [274- 304]. (Std: 0.9(cm) nbdata:30) 
+
+Sat 31 quad 1:  water year 2014 
+    check RH statistics over 3 years 2012, 2013 and  2014
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 200.20  196.50  198.30|    |1.30 2.50  1.10|    [243  273]    |29 30  30| 
+      | 200.20  195.30  198.50|    |1.00 0.40  1.00|    [260  290]    |30 30  30| 
+      | 200.30  195.30  198.00|    |1.10 0.50  0.70|    [274  304]    |30 31  30| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.95 (m) for 2013 and period [274- 304]. (Std: 0.5(cm) nbdata:31) 
+
+Sat 31 quad 3:  water year 2014 
+    check RH statistics over 3 years 2012, 2013 and  2014
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 195.40  191.70  191.90|    |1.10 1.90  1.00|    [243  273]    |29 30  30| 
+      | 195.30  190.40  192.30|    |0.80 0.50  0.80|    [260  290]    |30 30  30| 
+      | 195.60  190.50  192.50|    |1.20 0.40  0.80|    [274  304]    |30 31  30| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.91 (m) for 2013 and period [274- 304]. (Std: 0.4(cm) nbdata:31) 
+
+ -------------  Doing  Water Year 2015 -------------
+
+
+Sat  1 quad 1:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 197.40  198.10  199.50|    |2.60 0.60  0.50|    [243  273]    |30 30  30| 
+      | 196.40  198.20  199.00|    |0.80 0.70  0.80|    [260  290]    |30 30  30| 
+      | 196.00  198.00  198.10|    |1.00 0.60  1.00|    [274  304]    |31 30  30| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.98 (m) for 2014 and period [274- 304]. (Std: 0.6(cm) nbdata:30) 
+
+Sat  1 quad 2:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 187.80  187.20  188.60|    |2.40 1.70  1.60|    [243  273]    |30 30  30| 
+      | 187.30  188.10  189.90|    |0.80 1.20  1.90|    [260  290]    |30 30  30| 
+      | 187.80  188.40  189.30|    |0.50 1.50  3.00|    [274  304]    |31 30  30| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.88 (m) for 2014 and period [274- 304]. (Std: 1.5(cm) nbdata:30) 
+
+Sat  1 quad 3:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 195.90  199.80  199.40|    |2.00 1.00  0.60|    [243  273]    |30 30  30| 
+      | 194.90  199.20  199.00|    |0.60 1.40  0.60|    [260  290]    |30 30  30| 
+      | 195.30  198.40  198.10|    |0.40 0.90  1.10|    [274  304]    |31 30  30| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.98 (m) for 2014 and period [274- 304]. (Std: 0.9(cm) nbdata:30) 
+
+Sat  1 quad 4:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 193.20  195.10  197.80|    |2.20 0.80  0.60|    [243  273]    |30 30  30| 
+      | 193.00  195.00  197.30|    |0.80 0.70  0.70|    [260  290]    |30 30  30| 
+      | 193.30  195.00  196.40|    |0.50 0.70  1.10|    [274  304]    |31 30  30| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.95 (m) for 2014 and period [274- 304]. (Std: 0.7(cm) nbdata:30) 
+
+Sat  3 quad 2:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN     NaN  192.90|    | NaN  NaN  1.00|    [243  273]    |NaN NaN  23| 
+      |    NaN     NaN  193.00|    | NaN  NaN  1.10|    [260  290]    |NaN NaN  21| 
+      |    NaN     NaN  191.30|    | NaN  NaN  1.70|    [274  304]    |NaN NaN  24| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.91 (m) for 2015 and period [274- 304]. (Std: 1.7(cm) nbdata:24) 
+
+Sat  3 quad 3:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN     NaN  193.10|    | NaN  NaN  1.70|    [243  273]    |NaN NaN  30| 
+      |    NaN     NaN  194.00|    | NaN  NaN  1.20|    [260  290]    |NaN NaN  30| 
+      |    NaN     NaN  193.10|    | NaN  NaN  1.50|    [274  304]    |NaN NaN  30| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.93 (m) for 2015 and period [274- 304]. (Std: 1.5(cm) nbdata:30) 
+
+Sat  5 quad 1:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 196.00  198.70  200.20|    |3.50 0.90  0.60|    [243  273]    |31 30  30| 
+      | 194.50  198.60  199.80|    |0.90 1.10  0.70|    [260  290]    |30 29  30| 
+      | 194.40  198.10  198.70|    |0.80 0.70  1.30|    [274  304]    |30 30  30| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.98 (m) for 2014 and period [274- 304]. (Std: 0.7(cm) nbdata:30) 
+
+Sat  5 quad 4:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 192.60  193.10  195.10|    |2.30 1.50  1.10|    [243  273]    |30 30  30| 
+      | 192.10  193.90  195.50|    |0.90 0.90  1.50|    [260  290]    |30 30  30| 
+      | 192.80  194.20  194.90|    |0.70 1.10  1.60|    [274  304]    |31 30  30| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.94 (m) for 2014 and period [274- 304]. (Std: 1.1(cm) nbdata:30) 
+
+Sat  6 quad 1:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  198.60  201.40|    | NaN 1.10  0.60|    [243  273]    |NaN 30  29| 
+      |    NaN  198.60  200.80|    | NaN 1.10  0.60|    [260  290]    |NaN 30  30| 
+      |    NaN  198.10  199.90|    | NaN 0.70  1.40|    [274  304]    |NaN 30  30| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.98 (m) for 2014 and period [274- 304]. (Std: 0.7(cm) nbdata:30) 
+
+Sat  6 quad 3:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  191.80  195.60|    | NaN 1.30  1.10|    [243  273]    |NaN 30  30| 
+      |    NaN  192.90  195.20|    | NaN 0.90  1.30|    [260  290]    |NaN 30  30| 
+      |    NaN  193.60  194.00|    | NaN 1.10  1.30|    [274  304]    |NaN 30  30| 
+
+    Keeping RH Mean: Ground = 1.94 (m) for 2014 and period [274- 304]. (Std: 1.1(cm) nbdata:30) 
+
+Sat  6 quad 4:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  191.80  194.10|    | NaN 1.30  1.80|    [243  273]    |NaN 29  28| 
+      |    NaN  192.90  194.80|    | NaN 0.90  1.20|    [260  290]    |NaN 29  30| 
+      |    NaN  193.60  194.10|    | NaN 1.10  1.40|    [274  304]    |NaN 30  30| 
+
+    Keeping RH Mean: Ground = 1.94 (m) for 2014 and period [274- 304]. (Std: 1.1(cm) nbdata:30) 
+
+Sat  7 quad 3:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 198.50  200.20  200.80|    |1.80 1.10  0.70|    [243  273]    |30 27  28| 
+      | 198.30  201.00  201.20|    |0.50 0.80  0.70|    [260  290]    |30 23  29| 
+      | 198.30  201.20  200.80|    |0.50 0.90  1.00|    [274  304]    |31 26  27| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 2.01 (m) for 2014 and period [274- 304]. (Std: 0.9(cm) nbdata:26) 
+
+Sat  7 quad 4:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 195.00  191.90  195.20|    |1.80 1.20  1.00|    [243  273]    |30 30  30| 
+      | 193.70  191.60  196.10|    |1.00 1.30  1.10|    [260  290]    |30 30  30| 
+      | 193.50  191.20  196.00|    |1.00 1.00  1.40|    [274  304]    |31 30  30| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.91 (m) for 2014 and period [274- 304]. (Std: 1.0(cm) nbdata:30) 
+
+Sat  8 quad 2:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN     NaN  199.80|    | NaN  NaN  5.00|    [243  273]    |NaN NaN  30| 
+      |    NaN     NaN  199.80|    | NaN  NaN  2.60|    [260  290]    |NaN NaN  31| 
+      |    NaN     NaN  197.30|    | NaN  NaN  2.20|    [274  304]    |NaN NaN  31| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.97 (m) for 2015 and period [274- 304]. (Std: 2.2(cm) nbdata:31) 
+
+Sat  8 quad 4:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN     NaN  196.70|    | NaN  NaN  0.80|    [243  273]    |NaN NaN  30| 
+      |    NaN     NaN  197.30|    | NaN  NaN  1.00|    [260  290]    |NaN NaN  30| 
+      |    NaN     NaN  196.60|    | NaN  NaN  1.50|    [274  304]    |NaN NaN  30| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.97 (m) for 2015 and period [274- 304]. (Std: 1.5(cm) nbdata:30) 
+
+Sat  9 quad 2:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  193.80  194.40|    | NaN 0.90  1.00|    [243  273]    |NaN 12  30| 
+      |    NaN  193.60  193.90|    | NaN 0.90  1.60|    [260  290]    |NaN 29  28| 
+      |    NaN  193.70  192.30|    | NaN 0.80  2.40|    [274  304]    |NaN 30  25| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.94 (m) for 2014 and period [274- 304]. (Std: 0.8(cm) nbdata:30) 
+
+Sat  9 quad 4:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  193.40  193.60|    | NaN 1.00  0.90|    [243  273]    |NaN 12  28| 
+      |    NaN  193.20  194.10|    | NaN 1.00  1.30|    [260  290]    |NaN 29  27| 
+      |    NaN  193.40  194.10|    | NaN 0.90  1.50|    [274  304]    |NaN 31  26| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.93 (m) for 2014 and period [274- 304]. (Std: 0.9(cm) nbdata:31) 
+
+Sat 12 quad 2:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 190.30  193.00  193.80|    |2.80 1.70  1.40|    [243  273]    |28 27  28| 
+      | 189.50  194.40  194.70|    |0.80 0.80  1.20|    [260  290]    |25 24  29| 
+      | 190.00  194.30  193.70|    |0.50 0.70  1.70|    [274  304]    |26 23  29| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.94 (m) for 2014 and period [274- 304]. (Std: 0.7(cm) nbdata:23) 
+
+Sat 12 quad 3:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 191.90  192.70  193.50|    |2.90 1.10  1.40|    [243  273]    |30 30  30| 
+      | 190.20  193.30  194.10|    |0.60 0.80  0.50|    [260  290]    |30 30  30| 
+      | 190.20  194.00  193.90|    |0.60 1.20  0.80|    [274  304]    |31 30  30| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.94 (m) for 2014 and period [274- 304]. (Std: 1.2(cm) nbdata:30) 
+
+Sat 15 quad 1:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 196.70  198.30  200.90|    |2.80 0.70  0.60|    [243  273]    |30 30  30| 
+      | 195.50  198.40  200.70|    |0.70 0.70  0.70|    [260  290]    |30 30  31| 
+      | 195.10  198.20  199.80|    |0.80 0.60  1.10|    [274  304]    |31 31  30| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.98 (m) for 2014 and period [274- 304]. (Std: 0.6(cm) nbdata:31) 
+
+Sat 15 quad 2:  water year 2015 
+  Healthy but No Data for sat 15 and quad 2 during WY 2015 
+
+Sat 15 quad 4:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 194.30  194.20  196.70|    |2.10 1.50  1.60|    [243  273]    |29 29  30| 
+      | 193.50  195.40  197.50|    |0.50 1.00  0.80|    [260  290]    |28 30  30| 
+      | 193.40  195.50  197.10|    |0.50 0.80  1.00|    [274  304]    |31 30  29| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.96 (m) for 2014 and period [274- 304]. (Std: 0.8(cm) nbdata:30) 
+
+Sat 17 quad 3:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 191.00  192.90  192.90|    |2.00 0.90  0.80|    [243  273]    |30 30  30| 
+      | 190.20  193.00  193.40|    |0.50 0.90  1.20|    [260  290]    |29 30  29| 
+      | 190.10  192.50  194.00|    |0.60 0.60  1.40|    [274  304]    |30 30  29| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.93 (m) for 2014 and period [274- 304]. (Std: 0.6(cm) nbdata:30) 
+
+Sat 24 quad 1:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 195.70  197.20  199.40|    |3.50 1.00  0.50|    [243  273]    |30 30  30| 
+      | 194.40  197.20  198.90|    |0.80 1.20  0.90|    [260  290]    |30 30  30| 
+      | 194.30  196.90  197.60|    |0.80 1.00  1.30|    [274  304]    |31 31  30| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.97 (m) for 2014 and period [274- 304]. (Std: 1.0(cm) nbdata:31) 
+
+Sat 24 quad 2:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 186.80  187.10  188.70|    |3.60 2.70  1.60|    [243  273]    |30 29  30| 
+      | 186.00  188.20  190.20|    |0.90 1.80  1.90|    [260  290]    |29 28  29| 
+      | 186.40  188.10  190.20|    |0.80 2.00  2.40|    [274  304]    |30 22  28| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.88 (m) for 2014 and period [274- 304]. (Std: 2.0(cm) nbdata:22) 
+
+Sat 24 quad 3:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 195.50  198.50  199.30|    |2.60 0.80  0.90|    [243  273]    |30 30  30| 
+      | 194.20  198.20  199.70|    |0.50 0.90  0.90|    [260  290]    |30 30  30| 
+      | 194.50  198.00  198.90|    |0.50 0.80  1.50|    [274  304]    |31 31  30| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.98 (m) for 2014 and period [274- 304]. (Std: 0.8(cm) nbdata:31) 
+
+Sat 24 quad 4:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 192.60  192.60  195.30|    |2.10 0.80  0.80|    [243  273]    |27 24  18| 
+      | 192.00  193.30  195.80|    |0.50 0.70  0.80|    [260  290]    |30 23  16| 
+      | 191.90  193.80  194.90|    |0.50 0.90  1.10|    [274  304]    |32 27  16| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.94 (m) for 2014 and period [274- 304]. (Std: 0.9(cm) nbdata:27) 
+
+Sat 25 quad 3:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 192.80  193.20  195.20|    |1.70 1.30  0.90|    [243  273]    |29 30  30| 
+      | 192.00  193.60  194.70|    |0.40 0.90  1.00|    [260  290]    |29 29  30| 
+      | 191.90  193.00  193.80|    |0.50 0.70  1.20|    [274  304]    |31 29  30| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.93 (m) for 2014 and period [274- 304]. (Std: 0.7(cm) nbdata:29) 
+
+Sat 26 quad 1:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN     NaN  199.00|    | NaN  NaN  0.40|    [243  273]    |NaN NaN  30| 
+      |    NaN     NaN  199.00|    | NaN  NaN  0.40|    [260  290]    |NaN NaN  30| 
+      |    NaN     NaN  199.00|    | NaN  NaN  0.80|    [274  304]    |NaN NaN  30| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.99 (m) for 2015 and period [274- 304]. (Std: 0.8(cm) nbdata:30) 
+
+Sat 26 quad 2:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN     NaN  191.20|    | NaN  NaN  4.20|    [243  273]    |NaN NaN  29| 
+      |    NaN     NaN  192.60|    | NaN  NaN  2.40|    [260  290]    |NaN NaN  30| 
+      |    NaN     NaN  191.00|    | NaN  NaN  2.20|    [274  304]    |NaN NaN  29| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.91 (m) for 2015 and period [274- 304]. (Std: 2.2(cm) nbdata:29) 
+
+Sat 26 quad 4:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN     NaN  196.50|    | NaN  NaN  1.30|    [243  273]    |NaN NaN  30| 
+      |    NaN     NaN  197.30|    | NaN  NaN  1.00|    [260  290]    |NaN NaN  30| 
+      |    NaN     NaN  196.60|    | NaN  NaN  1.20|    [274  304]    |NaN NaN  30| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.97 (m) for 2015 and period [274- 304]. (Std: 1.2(cm) nbdata:30) 
+
+Sat 27 quad 1:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 197.70  198.50  200.90|    |2.50 0.70  0.50|    [243  273]    |30 30  30| 
+      | 196.20  198.30  200.60|    |0.80 0.70  0.70|    [260  290]    |30 30  30| 
+      | 196.20  198.10  199.90|    |0.90 0.50  1.10|    [274  304]    |31 30  30| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.98 (m) for 2014 and period [274- 304]. (Std: 0.5(cm) nbdata:30) 
+
+Sat 27 quad 2:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 189.10  188.90  191.90|    |2.30 2.60  1.20|    [243  273]    |30 30  30| 
+      | 188.90  189.80  192.20|    |0.90 2.10  2.00|    [260  290]    |31 29  30| 
+      | 188.90  190.10  192.40|    |1.00 2.00  2.50|    [274  304]    |32 28  29| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.90 (m) for 2014 and period [274- 304]. (Std: 2.0(cm) nbdata:28) 
+
+Sat 27 quad 3:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 196.50  200.40  201.20|    |3.10 1.20  0.60|    [243  273]    |30 30  30| 
+      | 196.20  200.50  201.00|    |1.20 1.30  0.90|    [260  290]    |30 30  30| 
+      | 197.00  200.20  200.10|    |0.70 1.10  1.40|    [274  304]    |31 30  31| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 2.00 (m) for 2014 and period [274- 304]. (Std: 1.1(cm) nbdata:30) 
+
+Sat 27 quad 4:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 193.40  193.60  196.50|    |2.00 0.90  0.50|    [243  273]    |30 30  30| 
+      | 192.70  193.80  196.10|    |0.50 0.90  0.80|    [260  290]    |30 30  30| 
+      | 192.40  193.90  195.20|    |1.00 0.80  1.20|    [274  304]    |31 30  30| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.94 (m) for 2014 and period [274- 304]. (Std: 0.8(cm) nbdata:30) 
+
+Sat 29 quad 2:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 193.40  194.90  196.80|    |2.50 1.10  1.50|    [243  273]    |30 29  30| 
+      | 191.80  195.10  197.60|    |0.40 1.00  1.00|    [260  290]    |30 29  29| 
+      | 191.50  194.50  197.00|    |0.40 0.80  1.70|    [274  304]    |31 28  28| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.95 (m) for 2014 and period [274- 304]. (Std: 0.8(cm) nbdata:28) 
+
+Sat 29 quad 4:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 191.30  191.40  194.20|    |2.20 1.90  1.30|    [243  273]    |30 29  30| 
+      | 190.80  193.40  194.80|    |0.80 0.90  1.00|    [260  290]    |28 29  31| 
+      | 191.20  194.30  193.90|    |0.60 1.20  1.40|    [274  304]    |29 30  30| 
+
+    Keeping RH Mean: Ground = 1.93 (m) for 2014 and period [260- 290]. (Std: 0.9(cm) nbdata:29) 
+
+Sat 30 quad 4:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  193.80  193.70|    | NaN 1.50  0.90|    [243  273]    |NaN 30  30| 
+      |    NaN  194.80  194.20|    | NaN 0.90  1.30|    [260  290]    |NaN 30  30| 
+      |    NaN  195.10  194.00|    | NaN 0.90  1.70|    [274  304]    |NaN 30  30| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.95 (m) for 2014 and period [274- 304]. (Std: 0.9(cm) nbdata:30) 
+
+Sat 31 quad 1:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 196.50  198.30  199.60|    |2.50 1.10  0.70|    [243  273]    |30 30  30| 
+      | 195.30  198.50  199.50|    |0.40 1.00  0.80|    [260  290]    |30 30  30| 
+      | 195.30  198.00  198.90|    |0.50 0.70  1.10|    [274  304]    |31 30  30| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.98 (m) for 2014 and period [274- 304]. (Std: 0.7(cm) nbdata:30) 
+
+Sat 31 quad 3:  water year 2015 
+    check RH statistics over 3 years 2013, 2014 and  2015
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 191.70  191.90  195.90|    |1.90 1.00  1.90|    [243  273]    |30 30  30| 
+      | 190.40  192.30  196.70|    |0.50 0.80  1.40|    [260  290]    |30 30  30| 
+      | 190.50  192.50  195.00|    |0.40 0.80  1.60|    [274  304]    |31 30  31| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.93 (m) for 2014 and period [274- 304]. (Std: 0.8(cm) nbdata:30) 
+
+ -------------  Doing  Water Year 2016 -------------
+
+
+Sat  1 quad 1:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 198.10  199.50  199.60|    |0.60 0.50  0.90|    [243  273]    |30 30  31| 
+      | 198.20  199.00  199.10|    |0.70 0.80  0.90|    [260  290]    |30 30  30| 
+      | 198.00  198.10  199.20|    |0.60 1.00  0.80|    [274  304]    |30 30  30| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.98 (m) for 2015 and period [274- 304]. (Std: 1.0(cm) nbdata:30) 
+
+Sat  1 quad 2:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 187.20  188.60  191.50|    |1.70 1.60  1.40|    [243  273]    |30 30  30| 
+      | 188.10  189.90  192.40|    |1.20 1.90  1.30|    [260  290]    |30 30  30| 
+      | 188.40  189.30  193.80|    |1.50 3.00  1.30|    [274  304]    |30 30  31| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.89 (m) for 2015 and period [274- 304]. (Std: 3.0(cm) nbdata:30) 
+
+Sat  1 quad 3:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 199.80  199.40  199.80|    |1.00 0.60  1.70|    [243  273]    |30 30  30| 
+      | 199.20  199.00  198.90|    |1.40 0.60  1.60|    [260  290]    |30 30  30| 
+      | 198.40  198.10  198.90|    |0.90 1.10  1.60|    [274  304]    |30 30  30| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.98 (m) for 2015 and period [274- 304]. (Std: 1.1(cm) nbdata:30) 
+
+Sat  1 quad 4:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 195.10  197.80  194.80|    |0.80 0.60  1.10|    [243  273]    |30 30  31| 
+      | 195.00  197.30  194.50|    |0.70 0.70  0.90|    [260  290]    |30 30  30| 
+      | 195.00  196.40  194.80|    |0.70 1.10  0.90|    [274  304]    |30 30  30| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.96 (m) for 2015 and period [274- 304]. (Std: 1.1(cm) nbdata:30) 
+
+Sat  3 quad 2:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  192.90  193.60|    | NaN 1.00  1.10|    [243  273]    |NaN 23  31| 
+      |    NaN  193.00  193.00|    | NaN 1.10  1.30|    [260  290]    |NaN 21  29| 
+      |    NaN  191.30  193.30|    | NaN 1.70  1.40|    [274  304]    |NaN 24  29| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.91 (m) for 2015 and period [274- 304]. (Std: 1.7(cm) nbdata:24) 
+
+Sat  3 quad 3:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  193.10  193.40|    | NaN 1.70  1.30|    [243  273]    |NaN 30  31| 
+      |    NaN  194.00  193.10|    | NaN 1.20  1.30|    [260  290]    |NaN 30  29| 
+      |    NaN  193.10  193.50|    | NaN 1.50  1.20|    [274  304]    |NaN 30  29| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.93 (m) for 2015 and period [274- 304]. (Std: 1.5(cm) nbdata:30) 
+
+Sat  5 quad 1:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 198.70  200.20  199.60|    |0.90 0.60  0.80|    [243  273]    |30 30  31| 
+      | 198.60  199.80  199.00|    |1.10 0.70  1.00|    [260  290]    |29 30  30| 
+      | 198.10  198.70  198.90|    |0.70 1.30  1.00|    [274  304]    |30 30  30| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.99 (m) for 2015 and period [274- 304]. (Std: 1.3(cm) nbdata:30) 
+
+Sat  5 quad 4:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 193.10  195.10  195.20|    |1.50 1.10  1.40|    [243  273]    |30 30  31| 
+      | 193.90  195.50  195.00|    |0.90 1.50  1.10|    [260  290]    |30 30  30| 
+      | 194.20  194.90  195.30|    |1.10 1.60  1.10|    [274  304]    |30 30  30| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.95 (m) for 2015 and period [274- 304]. (Std: 1.6(cm) nbdata:30) 
+
+Sat  6 quad 1:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 198.60  201.40  199.60|    |1.10 0.60  1.40|    [243  273]    |30 29  31| 
+      | 198.60  200.80  199.10|    |1.10 0.60  1.40|    [260  290]    |30 30  30| 
+      | 198.10  199.90  199.10|    |0.70 1.40  1.40|    [274  304]    |30 30  30| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 2.00 (m) for 2015 and period [274- 304]. (Std: 1.4(cm) nbdata:30) 
+
+Sat  6 quad 3:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 191.80  195.60  194.50|    |1.30 1.10  1.40|    [243  273]    |30 30  31| 
+      | 192.90  195.20  194.60|    |0.90 1.30  1.50|    [260  290]    |30 30  30| 
+      | 193.60  194.00  194.50|    |1.10 1.30  1.40|    [274  304]    |30 30  30| 
+
+    Keeping RH Mean: Ground = 1.94 (m) for 2015 and period [274- 304]. (Std: 1.3(cm) nbdata:30) 
+
+Sat  6 quad 4:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 191.80  194.10  194.50|    |1.30 1.80  1.40|    [243  273]    |29 28  31| 
+      | 192.90  194.80  194.60|    |0.90 1.20  1.50|    [260  290]    |29 30  30| 
+      | 193.60  194.10  194.50|    |1.10 1.40  1.40|    [274  304]    |30 30  30| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.94 (m) for 2015 and period [274- 304]. (Std: 1.4(cm) nbdata:30) 
+
+Sat  7 quad 3:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 200.20  200.80  202.00|    |1.10 0.70  1.20|    [243  273]    |27 28  31| 
+      | 201.00  201.20  201.60|    |0.80 0.70  1.00|    [260  290]    |23 29  30| 
+      | 201.20  200.80  201.80|    |0.90 1.00  1.10|    [274  304]    |26 27  30| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 2.01 (m) for 2015 and period [274- 304]. (Std: 1.0(cm) nbdata:27) 
+
+Sat  7 quad 4:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 191.90  195.20  194.80|    |1.20 1.00  1.30|    [243  273]    |30 30  31| 
+      | 191.60  196.10  194.20|    |1.30 1.10  1.20|    [260  290]    |30 30  30| 
+      | 191.20  196.00  194.70|    |1.00 1.40  1.50|    [274  304]    |30 30  30| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.96 (m) for 2015 and period [274- 304]. (Std: 1.4(cm) nbdata:30) 
+
+Sat  8 quad 2:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  199.80  196.80|    | NaN 5.00  0.60|    [243  273]    |NaN 30  32| 
+      |    NaN  199.80  197.90|    | NaN 2.60  1.40|    [260  290]    |NaN 31  31| 
+      |    NaN  197.30  199.80|    | NaN 2.20  1.20|    [274  304]    |NaN 31  29| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Keeping RH Mean: Ground = 1.97 (m) for 2015 and period [274- 304]. (Std: 2.2(cm) nbdata:31) 
+
+Sat  8 quad 4:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  196.70  196.70|    | NaN 0.80  1.30|    [243  273]    |NaN 30  31| 
+      |    NaN  197.30  196.80|    | NaN 1.00  1.50|    [260  290]    |NaN 30  30| 
+      |    NaN  196.60  197.10|    | NaN 1.50  1.40|    [274  304]    |NaN 30  30| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.97 (m) for 2015 and period [274- 304]. (Std: 1.5(cm) nbdata:30) 
+
+Sat  9 quad 2:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 193.80  194.40  195.90|    |0.90 1.00  1.40|    [243  273]    |12 30  31| 
+      | 193.60  193.90  195.30|    |0.90 1.60  1.50|    [260  290]    |29 28  29| 
+      | 193.70  192.30  195.80|    |0.80 2.40  1.50|    [274  304]    |30 25  29| 
+
+
+    Removing stats with less than 13 number of data points
+    Keeping RH Mean: Ground = 1.94 (m) for 2015 and period [243- 273]. (Std: 1.0(cm) nbdata:30) 
+
+Sat  9 quad 4:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 193.40  193.60  194.40|    |1.00 0.90  1.90|    [243  273]    |12 28  31| 
+      | 193.20  194.10  194.30|    |1.00 1.30  1.90|    [260  290]    |29 27  29| 
+      | 193.40  194.10  193.80|    |0.90 1.50  1.40|    [274  304]    |31 26  29| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.94 (m) for 2015 and period [274- 304]. (Std: 1.5(cm) nbdata:26) 
+
+Sat 10 quad 3:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN     NaN  202.90|    | NaN  NaN  1.20|    [243  273]    |NaN NaN  31| 
+      |    NaN     NaN  202.40|    | NaN  NaN  1.30|    [260  290]    |NaN NaN  30| 
+      |    NaN     NaN  202.20|    | NaN  NaN  1.20|    [274  304]    |NaN NaN  30| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 2.02 (m) for 2016 and period [274- 304]. (Std: 1.2(cm) nbdata:30) 
+
+Sat 10 quad 4:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN     NaN  195.30|    | NaN  NaN  1.30|    [243  273]    |NaN NaN  31| 
+      |    NaN     NaN  194.30|    | NaN  NaN  1.30|    [260  290]    |NaN NaN  30| 
+      |    NaN     NaN  194.30|    | NaN  NaN  1.30|    [274  304]    |NaN NaN  30| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.94 (m) for 2016 and period [274- 304]. (Std: 1.3(cm) nbdata:30) 
+
+Sat 12 quad 2:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 193.00  193.80  194.50|    |1.70 1.40  1.00|    [243  273]    |27 28  31| 
+      | 194.40  194.70  194.30|    |0.80 1.20  1.30|    [260  290]    |24 29  30| 
+      | 194.30  193.70  194.80|    |0.70 1.70  1.50|    [274  304]    |23 29  30| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.94 (m) for 2015 and period [274- 304]. (Std: 1.7(cm) nbdata:29) 
+
+Sat 12 quad 3:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 192.70  193.50  194.00|    |1.10 1.40  1.00|    [243  273]    |30 30  31| 
+      | 193.30  194.10  193.30|    |0.80 0.50  1.50|    [260  290]    |30 30  30| 
+      | 194.00  193.90  193.30|    |1.20 0.80  1.40|    [274  304]    |30 30  30| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.94 (m) for 2015 and period [274- 304]. (Std: 0.8(cm) nbdata:30) 
+
+Sat 15 quad 1:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 198.30  200.90  199.60|    |0.70 0.60  1.10|    [243  273]    |30 30  32| 
+      | 198.40  200.70  199.90|    |0.70 0.70  0.80|    [260  290]    |30 31  30| 
+      | 198.20  199.80  200.10|    |0.60 1.10  0.70|    [274  304]    |31 30  29| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 2.00 (m) for 2015 and period [274- 304]. (Std: 1.1(cm) nbdata:30) 
+
+Sat 15 quad 2:  water year 2016 
+  Healthy but No Data for sat 15 and quad 2 during WY 2016 
+
+Sat 15 quad 4:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 194.20  196.70  197.30|    |1.50 1.60  1.10|    [243  273]    |29 30  31| 
+      | 195.40  197.50  197.30|    |1.00 0.80  1.10|    [260  290]    |30 30  30| 
+      | 195.50  197.10  197.80|    |0.80 1.00  1.30|    [274  304]    |30 29  30| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.97 (m) for 2015 and period [274- 304]. (Std: 1.0(cm) nbdata:29) 
+
+Sat 17 quad 3:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 192.90  192.90  192.20|    |0.90 0.80  0.90|    [243  273]    |30 30  31| 
+      | 193.00  193.40  192.90|    |0.90 1.20  1.00|    [260  290]    |30 29  30| 
+      | 192.50  194.00  193.70|    |0.60 1.40  0.70|    [274  304]    |30 29  30| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.94 (m) for 2015 and period [274- 304]. (Std: 1.4(cm) nbdata:29) 
+
+Sat 24 quad 1:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 197.20  199.40  199.90|    |1.00 0.50  0.70|    [243  273]    |30 30  31| 
+      | 197.20  198.90  199.80|    |1.20 0.90  0.50|    [260  290]    |30 30  31| 
+      | 196.90  197.60  199.80|    |1.00 1.30  0.60|    [274  304]    |31 30  30| 
+
+    Keeping RH Mean: Ground = 1.99 (m) for 2015 and period [260- 290]. (Std: 0.9(cm) nbdata:30) 
+
+Sat 24 quad 2:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 187.10  188.70  190.70|    |2.70 1.60  2.20|    [243  273]    |29 30  31| 
+      | 188.20  190.20  192.30|    |1.80 1.90  2.20|    [260  290]    |28 29  29| 
+      | 188.10  190.20  192.60|    |2.00 2.40  1.80|    [274  304]    |22 28  29| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.90 (m) for 2015 and period [274- 304]. (Std: 2.4(cm) nbdata:28) 
+
+Sat 24 quad 3:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 198.50  199.30  197.30|    |0.80 0.90  1.40|    [243  273]    |30 30  31| 
+      | 198.20  199.70  197.50|    |0.90 0.90  1.10|    [260  290]    |30 30  30| 
+      | 198.00  198.90  197.60|    |0.80 1.50  1.10|    [274  304]    |31 30  30| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.99 (m) for 2015 and period [274- 304]. (Std: 1.5(cm) nbdata:30) 
+
+Sat 24 quad 4:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 192.60  195.30  195.10|    |0.80 0.80  1.50|    [243  273]    |24 18  31| 
+      | 193.30  195.80  195.60|    |0.70 0.80  0.90|    [260  290]    |23 16  29| 
+      | 193.80  194.90  195.80|    |0.90 1.10  0.70|    [274  304]    |27 16  30| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.95 (m) for 2015 and period [274- 304]. (Std: 1.1(cm) nbdata:16) 
+
+Sat 25 quad 3:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 193.20  195.20  195.00|    |1.30 0.90  1.10|    [243  273]    |30 30  31| 
+      | 193.60  194.70  194.90|    |0.90 1.00  0.90|    [260  290]    |29 30  30| 
+      | 193.00  193.80  195.40|    |0.70 1.20  0.80|    [274  304]    |29 30  30| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.94 (m) for 2015 and period [274- 304]. (Std: 1.2(cm) nbdata:30) 
+
+Sat 26 quad 1:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  199.00  199.10|    | NaN 0.40  1.00|    [243  273]    |NaN 30  31| 
+      |    NaN  199.00  199.10|    | NaN 0.40  0.60|    [260  290]    |NaN 30  30| 
+      |    NaN  199.00  199.50|    | NaN 0.80  0.80|    [274  304]    |NaN 30  30| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.99 (m) for 2015 and period [274- 304]. (Std: 0.8(cm) nbdata:30) 
+
+Sat 26 quad 2:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  191.20  202.20|    | NaN 4.20  1.30|    [243  273]    |NaN 29  31| 
+      |    NaN  192.60  201.10|    | NaN 2.40  1.10|    [260  290]    |NaN 30  30| 
+      |    NaN  191.00  199.90|    | NaN 2.20  0.90|    [274  304]    |NaN 29  30| 
+
+    Removing stats with STD higher than 3.0 (cm) 
+    Keeping RH Mean: Ground = 1.91 (m) for 2015 and period [274- 304]. (Std: 2.2(cm) nbdata:29) 
+
+Sat 26 quad 4:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  196.50  196.20|    | NaN 1.30  1.10|    [243  273]    |NaN 30  31| 
+      |    NaN  197.30  196.40|    | NaN 1.00  1.00|    [260  290]    |NaN 30  30| 
+      |    NaN  196.60  196.80|    | NaN 1.20  0.90|    [274  304]    |NaN 30  30| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.97 (m) for 2015 and period [274- 304]. (Std: 1.2(cm) nbdata:30) 
+
+Sat 27 quad 1:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 198.50  200.90  201.50|    |0.70 0.50  1.00|    [243  273]    |30 30  31| 
+      | 198.30  200.60  201.00|    |0.70 0.70  0.60|    [260  290]    |30 30  30| 
+      | 198.10  199.90  200.90|    |0.50 1.10  0.70|    [274  304]    |30 30  30| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 2.00 (m) for 2015 and period [274- 304]. (Std: 1.1(cm) nbdata:30) 
+
+Sat 27 quad 2:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 188.90  191.90  193.30|    |2.60 1.20  1.80|    [243  273]    |30 30  29| 
+      | 189.80  192.20  193.70|    |2.10 2.00  1.30|    [260  290]    |29 30  29| 
+      | 190.10  192.40  194.30|    |2.00 2.50  1.30|    [274  304]    |28 29  30| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.92 (m) for 2015 and period [274- 304]. (Std: 2.5(cm) nbdata:29) 
+
+Sat 27 quad 3:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 200.40  201.20  202.00|    |1.20 0.60  0.90|    [243  273]    |30 30  31| 
+      | 200.50  201.00  201.80|    |1.30 0.90  0.80|    [260  290]    |30 30  31| 
+      | 200.20  200.10  201.80|    |1.10 1.40  0.80|    [274  304]    |30 31  30| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 2.00 (m) for 2015 and period [274- 304]. (Std: 1.4(cm) nbdata:31) 
+
+Sat 27 quad 4:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 193.60  196.50  195.20|    |0.90 0.50  1.00|    [243  273]    |30 30  31| 
+      | 193.80  196.10  195.20|    |0.90 0.80  1.00|    [260  290]    |30 30  30| 
+      | 193.90  195.20  195.50|    |0.80 1.20  1.10|    [274  304]    |30 30  30| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.95 (m) for 2015 and period [274- 304]. (Std: 1.2(cm) nbdata:30) 
+
+Sat 29 quad 2:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 194.90  196.80  195.00|    |1.10 1.50  1.10|    [243  273]    |29 30  31| 
+      | 195.10  197.60  195.60|    |1.00 1.00  1.20|    [260  290]    |29 29  30| 
+      | 194.50  197.00  197.10|    |0.80 1.70  1.50|    [274  304]    |28 28  30| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.97 (m) for 2015 and period [274- 304]. (Std: 1.7(cm) nbdata:28) 
+
+Sat 29 quad 4:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 191.40  194.20  194.30|    |1.90 1.30  1.20|    [243  273]    |29 30  29| 
+      | 193.40  194.80  193.50|    |0.90 1.00  1.20|    [260  290]    |29 31  30| 
+      | 194.30  193.90  193.70|    |1.20 1.40  1.30|    [274  304]    |30 30  30| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.94 (m) for 2015 and period [274- 304]. (Std: 1.4(cm) nbdata:30) 
+
+Sat 30 quad 4:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 193.80  193.70  197.20|    |1.50 0.90  1.30|    [243  273]    |30 30  31| 
+      | 194.80  194.20  196.30|    |0.90 1.30  1.40|    [260  290]    |30 30  30| 
+      | 195.10  194.00  195.80|    |0.90 1.70  0.90|    [274  304]    |30 30  30| 
+
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.94 (m) for 2015 and period [274- 304]. (Std: 1.7(cm) nbdata:30) 
+
+Sat 31 quad 1:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 198.30  199.60  199.00|    |1.10 0.70  1.40|    [243  273]    |30 30  31| 
+      | 198.50  199.50  198.30|    |1.00 0.80  1.30|    [260  290]    |30 30  30| 
+      | 198.00  198.90  198.50|    |0.70 1.10  1.20|    [274  304]    |30 30  30| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.99 (m) for 2015 and period [274- 304]. (Std: 1.1(cm) nbdata:30) 
+
+Sat 31 quad 3:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 191.90  195.90  194.70|    |1.00 1.90  1.00|    [243  273]    |30 30  31| 
+      | 192.30  196.70  195.30|    |0.80 1.40  0.80|    [260  290]    |30 30  31| 
+      | 192.50  195.00  195.40|    |0.80 1.60  0.70|    [274  304]    |30 31  30| 
+
+    Keeping RH Mean: Ground = 1.95 (m) for 2015 and period [274- 304]. (Std: 1.6(cm) nbdata:31) 
+
+Sat 32 quad 3:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN     NaN  193.40|    | NaN  NaN  1.10|    [243  273]    |NaN NaN  29| 
+      |    NaN     NaN  193.10|    | NaN  NaN  0.90|    [260  290]    |NaN NaN  28| 
+      |    NaN     NaN  192.90|    | NaN  NaN  0.80|    [274  304]    |NaN NaN  30| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.93 (m) for 2016 and period [274- 304]. (Std: 0.8(cm) nbdata:30) 
+
+Sat 32 quad 4:  water year 2016 
+    check RH statistics over 3 years 2014, 2015 and  2016
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN     NaN  190.90|    | NaN  NaN  1.00|    [243  273]    |NaN NaN  31| 
+      |    NaN     NaN  191.10|    | NaN  NaN  1.10|    [260  290]    |NaN NaN  30| 
+      |    NaN     NaN  191.10|    | NaN  NaN  1.30|    [274  304]    |NaN NaN  30| 
+
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.91 (m) for 2016 and period [274- 304]. (Std: 1.3(cm) nbdata:30) 
+
+ -------------  Doing  Water Year 2017 -------------
+
+
+Sat  1 quad 1:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 199.50  199.60  199.60|    |0.50 0.90  1.10|    [243  273]    |30 31  29| 
+      | 199.00  199.10  198.20|    |0.80 0.90  1.90|    [260  290]    |30 30  21| 
+      | 198.10  199.20  196.50|    |1.00 0.80  1.30|    [274  304]    |30 30   8| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.99 (m) for 2016 and period [274- 304]. (Std: 0.8(cm) nbdata:30) 
+
+Sat  1 quad 2:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 188.60  191.50  190.30|    |1.60 1.40  2.00|    [243  273]    |30 30  29| 
+      | 189.90  192.40  189.40|    |1.90 1.30  2.30|    [260  290]    |30 30  23| 
+      | 189.30  193.80  188.60|    |3.00 1.30  1.30|    [274  304]    |30 31  10| 
+
+
+    Removing stats with less than 13 number of data points
+    Keeping RH Mean: Ground = 1.94 (m) for 2016 and period [274- 304]. (Std: 1.3(cm) nbdata:31) 
+
+Sat  1 quad 3:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 199.40  199.80  198.10|    |0.60 1.70  1.20|    [243  273]    |30 30  29| 
+      | 199.00  198.90  196.80|    |0.60 1.60  2.50|    [260  290]    |30 30  23| 
+      | 198.10  198.90  195.40|    |1.10 1.60  3.00|    [274  304]    |30 30  10| 
+
+
+    Removing stats with less than 13 number of data points
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.99 (m) for 2016 and period [274- 304]. (Std: 1.6(cm) nbdata:30) 
+
+Sat  1 quad 4:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 197.80  194.80  194.80|    |0.60 1.10  1.60|    [243  273]    |30 31  30| 
+      | 197.30  194.50  193.00|    |0.70 0.90  2.10|    [260  290]    |30 30  23| 
+      | 196.40  194.80  191.70|    |1.10 0.90  1.60|    [274  304]    |30 30  10| 
+
+
+    Removing stats with less than 13 number of data points
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.95 (m) for 2016 and period [274- 304]. (Std: 0.9(cm) nbdata:30) 
+
+Sat  3 quad 2:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 192.90  193.60  193.40|    |1.00 1.10  1.80|    [243  273]    |23 31  30| 
+      | 193.00  193.00  191.60|    |1.10 1.30  2.50|    [260  290]    |21 29  23| 
+      | 191.30  193.30  190.70|    |1.70 1.40  3.00|    [274  304]    |24 29  10| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.93 (m) for 2016 and period [274- 304]. (Std: 1.4(cm) nbdata:29) 
+
+Sat  3 quad 3:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 193.10  193.40  192.50|    |1.70 1.30  1.40|    [243  273]    |30 31  30| 
+      | 194.00  193.10  191.20|    |1.20 1.30  1.70|    [260  290]    |30 29  23| 
+      | 193.10  193.50  190.20|    |1.50 1.20  1.10|    [274  304]    |30 29  10| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.94 (m) for 2016 and period [274- 304]. (Std: 1.2(cm) nbdata:29) 
+
+Sat  5 quad 1:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 200.20  199.60  198.40|    |0.60 0.80  1.40|    [243  273]    |30 31  27| 
+      | 199.80  199.00  195.90|    |0.70 1.00  5.20|    [260  290]    |30 30  22| 
+      | 198.70  198.90  193.10|    |1.30 1.00  6.60|    [274  304]    |30 30  10| 
+
+
+    Removing stats with less than 13 number of data points
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.99 (m) for 2016 and period [274- 304]. (Std: 1.0(cm) nbdata:30) 
+
+Sat  5 quad 4:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 195.10  195.20  194.50|    |1.10 1.40  1.40|    [243  273]    |30 31  28| 
+      | 195.50  195.00  192.10|    |1.50 1.10  5.90|    [260  290]    |30 30  21| 
+      | 194.90  195.30  189.30|    |1.60 1.10  8.30|    [274  304]    |30 30   9| 
+
+
+    Removing stats with less than 13 number of data points
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.95 (m) for 2016 and period [274- 304]. (Std: 1.1(cm) nbdata:30) 
+
+Sat  6 quad 1:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 201.40  199.60  198.50|    |0.60 1.40  1.60|    [243  273]    |29 31  29| 
+      | 200.80  199.10  195.50|    |0.60 1.40  5.10|    [260  290]    |30 30  23| 
+      | 199.90  199.10  192.60|    |1.40 1.40  6.50|    [274  304]    |30 30  10| 
+
+
+    Removing stats with less than 13 number of data points
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.99 (m) for 2016 and period [274- 304]. (Std: 1.4(cm) nbdata:30) 
+
+Sat  6 quad 3:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 195.60  194.50  192.80|    |1.10 1.40  1.20|    [243  273]    |30 31  30| 
+      | 195.20  194.60  192.80|    |1.30 1.50  1.10|    [260  290]    |30 30  22| 
+      | 194.00  194.50  192.40|    |1.30 1.40  0.80|    [274  304]    |30 30   9| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.95 (m) for 2016 and period [274- 304]. (Std: 1.4(cm) nbdata:30) 
+
+Sat  6 quad 4:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 194.10  194.50  192.90|    |1.80 1.40  1.20|    [243  273]    |28 31  30| 
+      | 194.80  194.60  192.80|    |1.20 1.50  1.20|    [260  290]    |30 30  22| 
+      | 194.10  194.50  192.40|    |1.40 1.40  0.70|    [274  304]    |30 30   9| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.95 (m) for 2016 and period [274- 304]. (Std: 1.4(cm) nbdata:30) 
+
+Sat  7 quad 3:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 200.80  202.00  200.10|    |0.70 1.20  1.30|    [243  273]    |28 31  26| 
+      | 201.20  201.60  198.30|    |0.70 1.00  2.80|    [260  290]    |29 30  23| 
+      | 200.80  201.80  196.90|    |1.00 1.10  3.60|    [274  304]    |27 30  10| 
+
+
+    Removing stats with less than 13 number of data points
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 2.02 (m) for 2016 and period [274- 304]. (Std: 1.1(cm) nbdata:30) 
+
+Sat  7 quad 4:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 195.20  194.80  193.50|    |1.00 1.30  1.20|    [243  273]    |30 31  27| 
+      | 196.10  194.20  193.00|    |1.10 1.20  1.50|    [260  290]    |30 30  22| 
+      | 196.00  194.70  192.70|    |1.40 1.50  1.60|    [274  304]    |30 30   9| 
+
+
+    Removing stats with less than 13 number of data points
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.95 (m) for 2016 and period [274- 304]. (Std: 1.5(cm) nbdata:30) 
+
+Sat  8 quad 2:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 199.80  196.80  197.00|    |5.00 0.60  5.00|    [243  273]    |30 32  27| 
+      | 199.80  197.90  190.70|    |2.60 1.40  5.10|    [260  290]    |31 31  18| 
+      | 197.30  199.80  188.00|    |2.20 1.20  1.00|    [274  304]    |31 29   8| 
+
+
+    Removing stats with less than 13 number of data points
+    Removing stats with STD higher than 3.0 (cm) 
+    Keeping RH Mean: Ground = 1.97 (m) for 2016 and period [243- 273]. (Std: 0.6(cm) nbdata:32) 
+
+Sat  8 quad 4:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 196.70  196.70  194.70|    |0.80 1.30  1.30|    [243  273]    |30 31  30| 
+      | 197.30  196.80  193.40|    |1.00 1.50  1.70|    [260  290]    |30 30  23| 
+      | 196.60  197.10  192.20|    |1.50 1.40  0.60|    [274  304]    |30 30  10| 
+
+
+    Removing stats with less than 13 number of data points
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.97 (m) for 2016 and period [274- 304]. (Std: 1.4(cm) nbdata:30) 
+
+Sat  9 quad 2:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 194.40  195.90  193.60|    |1.00 1.40  1.40|    [243  273]    |30 31  30| 
+      | 193.90  195.30  192.90|    |1.60 1.50  1.50|    [260  290]    |28 29  22| 
+      | 192.30  195.80  192.40|    |2.40 1.50  1.20|    [274  304]    |25 29   9| 
+
+
+    Removing stats with less than 13 number of data points
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.96 (m) for 2016 and period [274- 304]. (Std: 1.5(cm) nbdata:29) 
+
+Sat  9 quad 4:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 193.60  194.40  192.90|    |0.90 1.90  1.30|    [243  273]    |28 31  30| 
+      | 194.10  194.30  191.60|    |1.30 1.90  1.40|    [260  290]    |27 29  22| 
+      | 194.10  193.80  190.80|    |1.50 1.40  0.90|    [274  304]    |26 29   9| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.94 (m) for 2016 and period [274- 304]. (Std: 1.4(cm) nbdata:29) 
+
+Sat 10 quad 3:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  202.90  203.80|    | NaN 1.20  1.80|    [243  273]    |NaN 31  27| 
+      |    NaN  202.40  201.80|    | NaN 1.30  3.70|    [260  290]    |NaN 30  22| 
+      |    NaN  202.20  200.30|    | NaN 1.20  4.80|    [274  304]    |NaN 30  10| 
+
+
+    Removing stats with less than 13 number of data points
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 2.02 (m) for 2016 and period [274- 304]. (Std: 1.2(cm) nbdata:30) 
+
+Sat 10 quad 4:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  195.30  192.20|    | NaN 1.30  1.30|    [243  273]    |NaN 31  30| 
+      |    NaN  194.30  191.20|    | NaN 1.30  1.80|    [260  290]    |NaN 30  23| 
+      |    NaN  194.30  190.20|    | NaN 1.30  1.30|    [274  304]    |NaN 30  10| 
+
+
+    Removing stats with less than 13 number of data points
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.94 (m) for 2016 and period [274- 304]. (Std: 1.3(cm) nbdata:30) 
+
+Sat 12 quad 2:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 193.80  194.50  194.50|    |1.40 1.00  1.90|    [243  273]    |28 31  28| 
+      | 194.70  194.30  192.30|    |1.20 1.30  2.50|    [260  290]    |29 30  21| 
+      | 193.70  194.80  190.40|    |1.70 1.50  0.70|    [274  304]    |29 30   8| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.95 (m) for 2016 and period [274- 304]. (Std: 1.5(cm) nbdata:30) 
+
+Sat 12 quad 3:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 193.50  194.00  192.30|    |1.40 1.00  1.70|    [243  273]    |30 31  28| 
+      | 194.10  193.30  189.60|    |0.50 1.50  4.70|    [260  290]    |30 30  22| 
+      | 193.90  193.30  187.80|    |0.80 1.40  6.40|    [274  304]    |30 30  10| 
+
+
+    Removing stats with less than 13 number of data points
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.93 (m) for 2016 and period [274- 304]. (Std: 1.4(cm) nbdata:30) 
+
+Sat 15 quad 1:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 200.90  199.60  198.50|    |0.60 1.10  1.30|    [243  273]    |30 32  28| 
+      | 200.70  199.90  197.00|    |0.70 0.80  3.10|    [260  290]    |31 30  21| 
+      | 199.80  200.10  195.80|    |1.10 0.70  3.90|    [274  304]    |30 29  10| 
+
+
+    Removing stats with less than 13 number of data points
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 2.00 (m) for 2016 and period [274- 304]. (Std: 0.7(cm) nbdata:29) 
+
+Sat 15 quad 2:  water year 2017 
+  Healthy but No Data for sat 15 and quad 2 during WY 2017 
+
+Sat 15 quad 4:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 196.70  197.30  196.90|    |1.60 1.10  1.70|    [243  273]    |30 31  28| 
+      | 197.50  197.30  194.30|    |0.80 1.10  4.20|    [260  290]    |30 30  22| 
+      | 197.10  197.80  192.60|    |1.00 1.30  5.60|    [274  304]    |29 30  10| 
+
+
+    Removing stats with less than 13 number of data points
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.98 (m) for 2016 and period [274- 304]. (Std: 1.3(cm) nbdata:30) 
+
+Sat 17 quad 3:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 192.90  192.20  192.50|    |0.80 0.90  1.10|    [243  273]    |30 31  30| 
+      | 193.40  192.90  192.00|    |1.20 1.00  1.20|    [260  290]    |29 30  22| 
+      | 194.00  193.70  191.20|    |1.40 0.70  0.60|    [274  304]    |29 30   9| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.94 (m) for 2016 and period [274- 304]. (Std: 0.7(cm) nbdata:30) 
+
+Sat 24 quad 1:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 199.40  199.90  199.20|    |0.50 0.70  1.70|    [243  273]    |30 31  30| 
+      | 198.90  199.80  197.50|    |0.90 0.50  2.40|    [260  290]    |30 31  23| 
+      | 197.60  199.80  196.50|    |1.30 0.60  2.30|    [274  304]    |30 30  10| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 2.00 (m) for 2016 and period [274- 304]. (Std: 0.6(cm) nbdata:30) 
+
+Sat 24 quad 2:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 188.70  190.70  185.70|    |1.60 2.20  4.50|    [243  273]    |30 31  14| 
+      | 190.20  192.30  184.20|    |1.90 2.20  3.50|    [260  290]    |29 29  16| 
+      | 190.20  192.60  184.70|    |2.40 1.80  2.60|    [274  304]    |28 29   8| 
+
+
+    Removing stats with less than 13 number of data points
+    Removing stats with STD higher than 3.0 (cm) 
+    Keeping RH Mean: Ground = 1.93 (m) for 2016 and period [274- 304]. (Std: 1.8(cm) nbdata:29) 
+
+Sat 24 quad 3:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 199.30  197.30  198.60|    |0.90 1.40  2.10|    [243  273]    |30 31  28| 
+      | 199.70  197.50  197.10|    |0.90 1.10  1.80|    [260  290]    |30 30  20| 
+      | 198.90  197.60  196.20|    |1.50 1.10  0.90|    [274  304]    |30 30   8| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.98 (m) for 2016 and period [274- 304]. (Std: 1.1(cm) nbdata:30) 
+
+Sat 24 quad 4:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 195.30  195.10  194.60|    |0.80 1.50  1.40|    [243  273]    |18 31  29| 
+      | 195.80  195.60  193.30|    |0.80 0.90  2.70|    [260  290]    |16 29  23| 
+      | 194.90  195.80  192.00|    |1.10 0.70  3.50|    [274  304]    |16 30  10| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.96 (m) for 2016 and period [274- 304]. (Std: 0.7(cm) nbdata:30) 
+
+Sat 25 quad 3:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 195.20  195.00  192.40|    |0.90 1.10  1.30|    [243  273]    |30 31  27| 
+      | 194.70  194.90  190.80|    |1.00 0.90  5.50|    [260  290]    |30 30  22| 
+      | 193.80  195.40  188.50|    |1.20 0.80  7.60|    [274  304]    |30 30  10| 
+
+
+    Removing stats with less than 13 number of data points
+    Removing stats with STD higher than 3.0 (cm) 
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.95 (m) for 2016 and period [274- 304]. (Std: 0.8(cm) nbdata:30) 
+
+Sat 26 quad 1:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 199.00  199.10  199.60|    |0.40 1.00  1.10|    [243  273]    |30 31  30| 
+      | 199.00  199.10  198.40|    |0.40 0.60  1.30|    [260  290]    |30 30  22| 
+      | 199.00  199.50  197.40|    |0.80 0.80  0.60|    [274  304]    |30 30   9| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 2.00 (m) for 2016 and period [274- 304]. (Std: 0.8(cm) nbdata:30) 
+
+Sat 26 quad 2:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 191.20  202.20  197.20|    |4.20 1.30  4.70|    [243  273]    |29 31  25| 
+      | 192.60  201.10  191.10|    |2.40 1.10  6.60|    [260  290]    |30 30  21| 
+      | 191.00  199.90  187.60|    |2.20 0.90  6.00|    [274  304]    |29 30  10| 
+
+
+    Removing stats with less than 13 number of data points
+    Removing stats with STD higher than 3.0 (cm) 
+    Keeping RH Mean: Ground = 2.00 (m) for 2016 and period [274- 304]. (Std: 0.9(cm) nbdata:30) 
+
+Sat 26 quad 4:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 196.50  196.20  195.80|    |1.30 1.10  1.10|    [243  273]    |30 31  30| 
+      | 197.30  196.40  195.00|    |1.00 1.00  2.70|    [260  290]    |30 30  23| 
+      | 196.60  196.80  193.70|    |1.20 0.90  3.30|    [274  304]    |30 30  10| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.97 (m) for 2016 and period [274- 304]. (Std: 0.9(cm) nbdata:30) 
+
+Sat 27 quad 1:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 200.90  201.50  201.10|    |0.50 1.00  0.80|    [243  273]    |30 31  30| 
+      | 200.60  201.00  200.00|    |0.70 0.60  1.50|    [260  290]    |30 30  23| 
+      | 199.90  200.90  198.80|    |1.10 0.70  1.20|    [274  304]    |30 30  10| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 2.01 (m) for 2016 and period [274- 304]. (Std: 0.7(cm) nbdata:30) 
+
+Sat 27 quad 2:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 191.90  193.30  193.10|    |1.20 1.80  1.70|    [243  273]    |30 29  27| 
+      | 192.20  193.70  191.40|    |2.00 1.30  4.30|    [260  290]    |30 29  22| 
+      | 192.40  194.30  189.60|    |2.50 1.30  5.60|    [274  304]    |29 30  10| 
+
+
+    Removing stats with less than 13 number of data points
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.94 (m) for 2016 and period [274- 304]. (Std: 1.3(cm) nbdata:30) 
+
+Sat 27 quad 3:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 201.20  202.00  201.00|    |0.60 0.90  1.10|    [243  273]    |30 31  30| 
+      | 201.00  201.80  200.20|    |0.90 0.80  1.30|    [260  290]    |30 31  22| 
+      | 200.10  201.80  199.50|    |1.40 0.80  0.70|    [274  304]    |31 30   9| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 2.02 (m) for 2016 and period [274- 304]. (Std: 0.8(cm) nbdata:30) 
+
+Sat 27 quad 4:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 196.50  195.20  194.00|    |0.50 1.00  1.70|    [243  273]    |30 31  30| 
+      | 196.10  195.20  192.10|    |0.80 1.00  2.20|    [260  290]    |30 30  23| 
+      | 195.20  195.50  190.60|    |1.20 1.10  1.30|    [274  304]    |30 30  10| 
+
+
+    Removing stats with less than 13 number of data points
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.96 (m) for 2016 and period [274- 304]. (Std: 1.1(cm) nbdata:30) 
+
+Sat 29 quad 2:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 196.80  195.00  195.00|    |1.50 1.10  1.40|    [243  273]    |30 31  28| 
+      | 197.60  195.60  194.40|    |1.00 1.20  5.10|    [260  290]    |29 30  21| 
+      | 197.00  197.10  193.10|    |1.70 1.50  7.70|    [274  304]    |28 30   9| 
+
+
+    Removing stats with less than 13 number of data points
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.97 (m) for 2016 and period [274- 304]. (Std: 1.5(cm) nbdata:30) 
+
+Sat 29 quad 4:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 194.20  194.30  193.70|    |1.30 1.20  1.50|    [243  273]    |30 29  28| 
+      | 194.80  193.50  191.80|    |1.00 1.20  3.00|    [260  290]    |31 30  22| 
+      | 193.90  193.70  190.70|    |1.40 1.30  3.90|    [274  304]    |30 30  10| 
+
+
+    Removing stats with less than 13 number of data points
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.94 (m) for 2016 and period [274- 304]. (Std: 1.3(cm) nbdata:30) 
+
+Sat 30 quad 4:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 193.70  197.20  194.00|    |0.90 1.30  1.00|    [243  273]    |30 31  30| 
+      | 194.20  196.30  192.90|    |1.30 1.40  1.50|    [260  290]    |30 30  22| 
+      | 194.00  195.80  191.80|    |1.70 0.90  0.90|    [274  304]    |30 30   9| 
+
+
+    Removing stats with less than 13 number of data points
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.96 (m) for 2016 and period [274- 304]. (Std: 0.9(cm) nbdata:30) 
+
+Sat 31 quad 1:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 199.60  199.00  198.30|    |0.70 1.40  1.30|    [243  273]    |30 31  30| 
+      | 199.50  198.30  196.40|    |0.80 1.30  2.50|    [260  290]    |30 30  23| 
+      | 198.90  198.50  194.80|    |1.10 1.20  2.40|    [274  304]    |30 30  10| 
+
+
+    Removing stats with less than 13 number of data points
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.99 (m) for 2016 and period [274- 304]. (Std: 1.2(cm) nbdata:30) 
+
+Sat 31 quad 3:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 195.90  194.70  193.50|    |1.90 1.00  0.90|    [243  273]    |30 31  28| 
+      | 196.70  195.30  192.20|    |1.40 0.80  2.50|    [260  290]    |30 31  22| 
+      | 195.00  195.40  190.90|    |1.60 0.70  3.20|    [274  304]    |31 30  10| 
+
+
+    Removing stats with less than 13 number of data points
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.95 (m) for 2016 and period [274- 304]. (Std: 0.7(cm) nbdata:30) 
+
+Sat 32 quad 3:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  193.40  192.60|    | NaN 1.10  1.10|    [243  273]    |NaN 29  27| 
+      |    NaN  193.10  191.40|    | NaN 0.90  2.30|    [260  290]    |NaN 28  22| 
+      |    NaN  192.90  190.60|    | NaN 0.80  3.10|    [274  304]    |NaN 30  10| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.93 (m) for 2016 and period [274- 304]. (Std: 0.8(cm) nbdata:30) 
+
+Sat 32 quad 4:  water year 2017 
+    check RH statistics over 3 years 2015, 2016 and  2017
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      |    NaN  190.90  186.70|    | NaN 1.00  1.10|    [243  273]    |NaN 31  30| 
+      |    NaN  191.10  185.40|    | NaN 1.10  1.60|    [260  290]    |NaN 30  23| 
+      |    NaN  191.10  184.30|    | NaN 1.30  1.10|    [274  304]    |NaN 30  10| 
+
+
+    Removing stats with less than 13 number of data points
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.91 (m) for 2016 and period [274- 304]. (Std: 1.3(cm) nbdata:30) 
+
+ -------------  Doing  Water Year 2018 -------------
+
+
+Sat  1 quad 1:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 199.60  199.60     NaN|    |0.90 1.10   NaN|    [243  273]    |31 29  NaN| 
+      | 199.10  198.20     NaN|    |0.90 1.90   NaN|    [260  290]    |30 21  NaN| 
+      | 199.20  196.50     NaN|    |0.80 1.30   NaN|    [274  304]    |30  8  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.98 (m) for 2017 and period [260- 290]. (Std: 1.9(cm) nbdata:21) 
+
+Sat  1 quad 2:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 191.50  190.30     NaN|    |1.40 2.00   NaN|    [243  273]    |30 29  NaN| 
+      | 192.40  189.40     NaN|    |1.30 2.30   NaN|    [260  290]    |30 23  NaN| 
+      | 193.80  188.60     NaN|    |1.30 1.30   NaN|    [274  304]    |31 10  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.89 (m) for 2017 and period [260- 290]. (Std: 2.3(cm) nbdata:23) 
+
+Sat  1 quad 3:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 199.80  198.10     NaN|    |1.70 1.20   NaN|    [243  273]    |30 29  NaN| 
+      | 198.90  196.80     NaN|    |1.60 2.50   NaN|    [260  290]    |30 23  NaN| 
+      | 198.90  195.40     NaN|    |1.60 3.00   NaN|    [274  304]    |30 10  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.97 (m) for 2017 and period [260- 290]. (Std: 2.5(cm) nbdata:23) 
+
+Sat  1 quad 4:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 194.80  194.80     NaN|    |1.10 1.60   NaN|    [243  273]    |31 30  NaN| 
+      | 194.50  193.00     NaN|    |0.90 2.10   NaN|    [260  290]    |30 23  NaN| 
+      | 194.80  191.70     NaN|    |0.90 1.60   NaN|    [274  304]    |30 10  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.93 (m) for 2017 and period [260- 290]. (Std: 2.1(cm) nbdata:23) 
+
+Sat  3 quad 2:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 193.60  193.40     NaN|    |1.10 1.80   NaN|    [243  273]    |31 30  NaN| 
+      | 193.00  191.60     NaN|    |1.30 2.50   NaN|    [260  290]    |29 23  NaN| 
+      | 193.30  190.70     NaN|    |1.40 3.00   NaN|    [274  304]    |29 10  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.92 (m) for 2017 and period [260- 290]. (Std: 2.5(cm) nbdata:23) 
+
+Sat  3 quad 3:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 193.40  192.50     NaN|    |1.30 1.40   NaN|    [243  273]    |31 30  NaN| 
+      | 193.10  191.20     NaN|    |1.30 1.70   NaN|    [260  290]    |29 23  NaN| 
+      | 193.50  190.20     NaN|    |1.20 1.10   NaN|    [274  304]    |29 10  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.91 (m) for 2017 and period [260- 290]. (Std: 1.7(cm) nbdata:23) 
+
+Sat  5 quad 1:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 199.60  198.40     NaN|    |0.80 1.40   NaN|    [243  273]    |31 27  NaN| 
+      | 199.00  195.90     NaN|    |1.00 5.20   NaN|    [260  290]    |30 22  NaN| 
+      | 198.90  193.10     NaN|    |1.00 6.60   NaN|    [274  304]    |30 10  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.98 (m) for 2017 and period [243- 273]. (Std: 1.4(cm) nbdata:27) 
+
+Sat  5 quad 4:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 195.20  194.50     NaN|    |1.40 1.40   NaN|    [243  273]    |31 28  NaN| 
+      | 195.00  192.10     NaN|    |1.10 5.90   NaN|    [260  290]    |30 21  NaN| 
+      | 195.30  189.30     NaN|    |1.10 8.30   NaN|    [274  304]    |30  9  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.95 (m) for 2017 and period [243- 273]. (Std: 1.4(cm) nbdata:28) 
+
+Sat  6 quad 1:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 199.60  198.50     NaN|    |1.40 1.60   NaN|    [243  273]    |31 29  NaN| 
+      | 199.10  195.50     NaN|    |1.40 5.10   NaN|    [260  290]    |30 23  NaN| 
+      | 199.10  192.60     NaN|    |1.40 6.50   NaN|    [274  304]    |30 10  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.99 (m) for 2017 and period [243- 273]. (Std: 1.6(cm) nbdata:29) 
+
+Sat  6 quad 3:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 194.50  192.80     NaN|    |1.40 1.20   NaN|    [243  273]    |31 30  NaN| 
+      | 194.60  192.80     NaN|    |1.50 1.10   NaN|    [260  290]    |30 22  NaN| 
+      | 194.50  192.40     NaN|    |1.40 0.80   NaN|    [274  304]    |30  9  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.93 (m) for 2017 and period [260- 290]. (Std: 1.1(cm) nbdata:22) 
+
+Sat  6 quad 4:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 194.50  192.90     NaN|    |1.40 1.20   NaN|    [243  273]    |31 30  NaN| 
+      | 194.60  192.80     NaN|    |1.50 1.20   NaN|    [260  290]    |30 22  NaN| 
+      | 194.50  192.40     NaN|    |1.40 0.70   NaN|    [274  304]    |30  9  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.93 (m) for 2017 and period [260- 290]. (Std: 1.2(cm) nbdata:22) 
+
+Sat  7 quad 3:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 202.00  200.10     NaN|    |1.20 1.30   NaN|    [243  273]    |31 26  NaN| 
+      | 201.60  198.30     NaN|    |1.00 2.80   NaN|    [260  290]    |30 23  NaN| 
+      | 201.80  196.90     NaN|    |1.10 3.60   NaN|    [274  304]    |30 10  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Keeping RH Mean: Ground = 2.00 (m) for 2017 and period [243- 273]. (Std: 1.3(cm) nbdata:26) 
+
+Sat  7 quad 4:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 194.80  193.50     NaN|    |1.30 1.20   NaN|    [243  273]    |31 27  NaN| 
+      | 194.20  193.00     NaN|    |1.20 1.50   NaN|    [260  290]    |30 22  NaN| 
+      | 194.70  192.70     NaN|    |1.50 1.60   NaN|    [274  304]    |30  9  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.93 (m) for 2017 and period [260- 290]. (Std: 1.5(cm) nbdata:22) 
+
+Sat  8 quad 2:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 196.80  197.00     NaN|    |0.60 5.00   NaN|    [243  273]    |32 27  NaN| 
+      | 197.90  190.70     NaN|    |1.40 5.10   NaN|    [260  290]    |31 18  NaN| 
+      | 199.80  188.00     NaN|    |1.20 1.00   NaN|    [274  304]    |29  8  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Removing stats with STD higher than 3.0 (cm) 
+    Keeping RH Mean: Ground = 1.97 (m) for 2016 and period [243- 273]. (Std: 0.6(cm) nbdata:32) 
+
+Sat  8 quad 4:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 196.70  194.70     NaN|    |1.30 1.30   NaN|    [243  273]    |31 30  NaN| 
+      | 196.80  193.40     NaN|    |1.50 1.70   NaN|    [260  290]    |30 23  NaN| 
+      | 197.10  192.20     NaN|    |1.40 0.60   NaN|    [274  304]    |30 10  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.93 (m) for 2017 and period [260- 290]. (Std: 1.7(cm) nbdata:23) 
+
+Sat  9 quad 2:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 195.90  193.60     NaN|    |1.40 1.40   NaN|    [243  273]    |31 30  NaN| 
+      | 195.30  192.90     NaN|    |1.50 1.50   NaN|    [260  290]    |29 22  NaN| 
+      | 195.80  192.40     NaN|    |1.50 1.20   NaN|    [274  304]    |29  9  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.93 (m) for 2017 and period [260- 290]. (Std: 1.5(cm) nbdata:22) 
+
+Sat  9 quad 4:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 194.40  192.90     NaN|    |1.90 1.30   NaN|    [243  273]    |31 30  NaN| 
+      | 194.30  191.60     NaN|    |1.90 1.40   NaN|    [260  290]    |29 22  NaN| 
+      | 193.80  190.80     NaN|    |1.40 0.90   NaN|    [274  304]    |29  9  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.92 (m) for 2017 and period [260- 290]. (Std: 1.4(cm) nbdata:22) 
+
+Sat 10 quad 3:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 202.90  203.80     NaN|    |1.20 1.80   NaN|    [243  273]    |31 27  NaN| 
+      | 202.40  201.80     NaN|    |1.30 3.70   NaN|    [260  290]    |30 22  NaN| 
+      | 202.20  200.30     NaN|    |1.20 4.80   NaN|    [274  304]    |30 10  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 2.04 (m) for 2017 and period [243- 273]. (Std: 1.8(cm) nbdata:27) 
+
+Sat 10 quad 4:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 195.30  192.20     NaN|    |1.30 1.30   NaN|    [243  273]    |31 30  NaN| 
+      | 194.30  191.20     NaN|    |1.30 1.80   NaN|    [260  290]    |30 23  NaN| 
+      | 194.30  190.20     NaN|    |1.30 1.30   NaN|    [274  304]    |30 10  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.91 (m) for 2017 and period [260- 290]. (Std: 1.8(cm) nbdata:23) 
+
+Sat 12 quad 2:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 194.50  194.50     NaN|    |1.00 1.90   NaN|    [243  273]    |31 28  NaN| 
+      | 194.30  192.30     NaN|    |1.30 2.50   NaN|    [260  290]    |30 21  NaN| 
+      | 194.80  190.40     NaN|    |1.50 0.70   NaN|    [274  304]    |30  8  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.92 (m) for 2017 and period [260- 290]. (Std: 2.5(cm) nbdata:21) 
+
+Sat 12 quad 3:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 194.00  192.30     NaN|    |1.00 1.70   NaN|    [243  273]    |31 28  NaN| 
+      | 193.30  189.60     NaN|    |1.50 4.70   NaN|    [260  290]    |30 22  NaN| 
+      | 193.30  187.80     NaN|    |1.40 6.40   NaN|    [274  304]    |30 10  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.92 (m) for 2017 and period [243- 273]. (Std: 1.7(cm) nbdata:28) 
+
+Sat 15 quad 1:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 199.60  198.50     NaN|    |1.10 1.30   NaN|    [243  273]    |32 28  NaN| 
+      | 199.90  197.00     NaN|    |0.80 3.10   NaN|    [260  290]    |30 21  NaN| 
+      | 200.10  195.80     NaN|    |0.70 3.90   NaN|    [274  304]    |29 10  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.99 (m) for 2017 and period [243- 273]. (Std: 1.3(cm) nbdata:28) 
+
+Sat 15 quad 2:  water year 2018 
+  Healthy but No Data for sat 15 and quad 2 during WY 2018 
+
+Sat 15 quad 4:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 197.30  196.90     NaN|    |1.10 1.70   NaN|    [243  273]    |31 28  NaN| 
+      | 197.30  194.30     NaN|    |1.10 4.20   NaN|    [260  290]    |30 22  NaN| 
+      | 197.80  192.60     NaN|    |1.30 5.60   NaN|    [274  304]    |30 10  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.97 (m) for 2017 and period [243- 273]. (Std: 1.7(cm) nbdata:28) 
+
+Sat 17 quad 3:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 192.20  192.50     NaN|    |0.90 1.10   NaN|    [243  273]    |31 30  NaN| 
+      | 192.90  192.00     NaN|    |1.00 1.20   NaN|    [260  290]    |30 22  NaN| 
+      | 193.70  191.20     NaN|    |0.70 0.60   NaN|    [274  304]    |30  9  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.92 (m) for 2017 and period [260- 290]. (Std: 1.2(cm) nbdata:22) 
+
+Sat 24 quad 1:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 199.90  199.20     NaN|    |0.70 1.70   NaN|    [243  273]    |31 30  NaN| 
+      | 199.80  197.50     NaN|    |0.50 2.40   NaN|    [260  290]    |31 23  NaN| 
+      | 199.80  196.50     NaN|    |0.60 2.30   NaN|    [274  304]    |30 10  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.98 (m) for 2017 and period [260- 290]. (Std: 2.4(cm) nbdata:23) 
+
+Sat 24 quad 2:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 190.70  185.70     NaN|    |2.20 4.50   NaN|    [243  273]    |31 14  NaN| 
+      | 192.30  184.20     NaN|    |2.20 3.50   NaN|    [260  290]    |29 16  NaN| 
+      | 192.60  184.70     NaN|    |1.80 2.60   NaN|    [274  304]    |29  8  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.93 (m) for 2016 and period [274- 304]. (Std: 1.8(cm) nbdata:29) 
+
+Sat 24 quad 3:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 197.30  198.60     NaN|    |1.40 2.10   NaN|    [243  273]    |31 28  NaN| 
+      | 197.50  197.10     NaN|    |1.10 1.80   NaN|    [260  290]    |30 20  NaN| 
+      | 197.60  196.20     NaN|    |1.10 0.90   NaN|    [274  304]    |30  8  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.97 (m) for 2017 and period [260- 290]. (Std: 1.8(cm) nbdata:20) 
+
+Sat 24 quad 4:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 195.10  194.60     NaN|    |1.50 1.40   NaN|    [243  273]    |31 29  NaN| 
+      | 195.60  193.30     NaN|    |0.90 2.70   NaN|    [260  290]    |29 23  NaN| 
+      | 195.80  192.00     NaN|    |0.70 3.50   NaN|    [274  304]    |30 10  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.93 (m) for 2017 and period [260- 290]. (Std: 2.7(cm) nbdata:23) 
+
+Sat 25 quad 3:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 195.00  192.40     NaN|    |1.10 1.30   NaN|    [243  273]    |31 27  NaN| 
+      | 194.90  190.80     NaN|    |0.90 5.50   NaN|    [260  290]    |30 22  NaN| 
+      | 195.40  188.50     NaN|    |0.80 7.60   NaN|    [274  304]    |30 10  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Removing stats with STD higher than 3.0 (cm) 
+    Keeping RH Mean: Ground = 1.92 (m) for 2017 and period [243- 273]. (Std: 1.3(cm) nbdata:27) 
+
+Sat 26 quad 1:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 199.10  199.60     NaN|    |1.00 1.10   NaN|    [243  273]    |31 30  NaN| 
+      | 199.10  198.40     NaN|    |0.60 1.30   NaN|    [260  290]    |30 22  NaN| 
+      | 199.50  197.40     NaN|    |0.80 0.60   NaN|    [274  304]    |30  9  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.98 (m) for 2017 and period [260- 290]. (Std: 1.3(cm) nbdata:22) 
+
+Sat 26 quad 2:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 202.20  197.20     NaN|    |1.30 4.70   NaN|    [243  273]    |31 25  NaN| 
+      | 201.10  191.10     NaN|    |1.10 6.60   NaN|    [260  290]    |30 21  NaN| 
+      | 199.90  187.60     NaN|    |0.90 6.00   NaN|    [274  304]    |30 10  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 2.00 (m) for 2016 and period [274- 304]. (Std: 0.9(cm) nbdata:30) 
+
+Sat 26 quad 4:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 196.20  195.80     NaN|    |1.10 1.10   NaN|    [243  273]    |31 30  NaN| 
+      | 196.40  195.00     NaN|    |1.00 2.70   NaN|    [260  290]    |30 23  NaN| 
+      | 196.80  193.70     NaN|    |0.90 3.30   NaN|    [274  304]    |30 10  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.95 (m) for 2017 and period [260- 290]. (Std: 2.7(cm) nbdata:23) 
+
+Sat 27 quad 1:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 201.50  201.10     NaN|    |1.00 0.80   NaN|    [243  273]    |31 30  NaN| 
+      | 201.00  200.00     NaN|    |0.60 1.50   NaN|    [260  290]    |30 23  NaN| 
+      | 200.90  198.80     NaN|    |0.70 1.20   NaN|    [274  304]    |30 10  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 2.00 (m) for 2017 and period [260- 290]. (Std: 1.5(cm) nbdata:23) 
+
+Sat 27 quad 2:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 193.30  193.10     NaN|    |1.80 1.70   NaN|    [243  273]    |29 27  NaN| 
+      | 193.70  191.40     NaN|    |1.30 4.30   NaN|    [260  290]    |29 22  NaN| 
+      | 194.30  189.60     NaN|    |1.30 5.60   NaN|    [274  304]    |30 10  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.93 (m) for 2017 and period [243- 273]. (Std: 1.7(cm) nbdata:27) 
+
+Sat 27 quad 3:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 202.00  201.00     NaN|    |0.90 1.10   NaN|    [243  273]    |31 30  NaN| 
+      | 201.80  200.20     NaN|    |0.80 1.30   NaN|    [260  290]    |31 22  NaN| 
+      | 201.80  199.50     NaN|    |0.80 0.70   NaN|    [274  304]    |30  9  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 2.00 (m) for 2017 and period [260- 290]. (Std: 1.3(cm) nbdata:22) 
+
+Sat 27 quad 4:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 195.20  194.00     NaN|    |1.00 1.70   NaN|    [243  273]    |31 30  NaN| 
+      | 195.20  192.10     NaN|    |1.00 2.20   NaN|    [260  290]    |30 23  NaN| 
+      | 195.50  190.60     NaN|    |1.10 1.30   NaN|    [274  304]    |30 10  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Keeping RH Mean: Ground = 1.92 (m) for 2017 and period [260- 290]. (Std: 2.2(cm) nbdata:23) 
+
+Sat 29 quad 2:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 195.00  195.00     NaN|    |1.10 1.40   NaN|    [243  273]    |31 28  NaN| 
+      | 195.60  194.40     NaN|    |1.20 5.10   NaN|    [260  290]    |30 21  NaN| 
+      | 197.10  193.10     NaN|    |1.50 7.70   NaN|    [274  304]    |30  9  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Removing stats with STD higher than 3.0 (cm) 
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.95 (m) for 2017 and period [243- 273]. (Std: 1.4(cm) nbdata:28) 
+
+Sat 29 quad 4:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 194.30  193.70     NaN|    |1.20 1.50   NaN|    [243  273]    |29 28  NaN| 
+      | 193.50  191.80     NaN|    |1.20 3.00   NaN|    [260  290]    |30 22  NaN| 
+      | 193.70  190.70     NaN|    |1.30 3.90   NaN|    [274  304]    |30 10  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.92 (m) for 2017 and period [260- 290]. (Std: 3.0(cm) nbdata:22) 
+
+Sat 30 quad 4:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 197.20  194.00     NaN|    |1.30 1.00   NaN|    [243  273]    |31 30  NaN| 
+      | 196.30  192.90     NaN|    |1.40 1.50   NaN|    [260  290]    |30 22  NaN| 
+      | 195.80  191.80     NaN|    |0.90 0.90   NaN|    [274  304]    |30  9  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.93 (m) for 2017 and period [260- 290]. (Std: 1.5(cm) nbdata:22) 
+
+Sat 31 quad 1:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 199.00  198.30     NaN|    |1.40 1.30   NaN|    [243  273]    |31 30  NaN| 
+      | 198.30  196.40     NaN|    |1.30 2.50   NaN|    [260  290]    |30 23  NaN| 
+      | 198.50  194.80     NaN|    |1.20 2.40   NaN|    [274  304]    |30 10  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.96 (m) for 2017 and period [260- 290]. (Std: 2.5(cm) nbdata:23) 
+
+Sat 31 quad 3:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 194.70  193.50     NaN|    |1.00 0.90   NaN|    [243  273]    |31 28  NaN| 
+      | 195.30  192.20     NaN|    |0.80 2.50   NaN|    [260  290]    |31 22  NaN| 
+      | 195.40  190.90     NaN|    |0.70 3.20   NaN|    [274  304]    |30 10  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.92 (m) for 2017 and period [260- 290]. (Std: 2.5(cm) nbdata:22) 
+
+Sat 32 quad 3:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 193.40  192.60     NaN|    |1.10 1.10   NaN|    [243  273]    |29 27  NaN| 
+      | 193.10  191.40     NaN|    |0.90 2.30   NaN|    [260  290]    |28 22  NaN| 
+      | 192.90  190.60     NaN|    |0.80 3.10   NaN|    [274  304]    |30 10  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Means are the same within  3cm, will pick preferred year and baresoilDOYs by availability
+    Keeping RH Mean: Ground = 1.91 (m) for 2017 and period [260- 290]. (Std: 2.3(cm) nbdata:22) 
+
+Sat 32 quad 4:  water year 2018 
+    check RH statistics over 3 years 2016, 2017 and  2018
+
+                  Mean (cm)              Std (cm)           Periods        nbdata 
+      | 190.90  186.70     NaN|    |1.00 1.10   NaN|    [243  273]    |31 30  NaN| 
+      | 191.10  185.40     NaN|    |1.10 1.60   NaN|    [260  290]    |30 23  NaN| 
+      | 191.10  184.30     NaN|    |1.30 1.10   NaN|    [274  304]    |30 10  NaN| 
+
+
+    Removing stats with less than 13 number of data points
+    Means for column 2 are the same within 1.50 cm,
+    Keeping RH Mean: Ground = 1.85 (m) for 2017 and period [260- 290]. (Std: 1.6(cm) nbdata:23) 
+------------------------------------------------------- 
+ writing bare soil values in /gipsy/auto/snow/Xground/p041 

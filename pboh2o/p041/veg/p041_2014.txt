@@ -1,0 +1,1 @@
+% yr doy   wet   wetS   NMRI   h2o   h2oS  NDVI  height(cm) heightSig(cm)
